@@ -1,0 +1,9 @@
+# Dependencies
+/node_modules
+
+# Visual Studio Code
+/.vscode
+.history
+
+# Generated website
+/_site
