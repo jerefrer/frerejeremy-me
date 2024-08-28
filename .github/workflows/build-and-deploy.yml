@@ -1,39 +1,40 @@
-name: Build and Deploy
+name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ "main" ]
+    branches:
+      - main
+  pull_request:
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: ['20']
-
+  deploy:
+    runs-on: ubuntu-22.04
     permissions:
       contents: write
-
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
     steps:
-      - uses: actions/checkout@v4
-      
+      - uses: actions/checkout@v3
+
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18"
+
       - name: Install pnpm
-        uses: pnpm/action-setup@v4
+        run: npm install -g pnpm
 
-      - name: Install Node.js
-        uses: actions/setup-node@v4
+      - name: Persist pnpm cache
+        uses: pnpm/action-setup@v2
         with:
-          node-version: 20
-          cache: 'pnpm'
+          cache: true
 
-      - name: Install packages
-        run: pnpm install
+      - run: pnpm install
+      - run: pnpm run build-ghpages
 
-      - name: Run npm build
-        run: pnpm exec eleventy
-
-      - name: Deploy to gh-pages
-        uses: peaceiris/actions-gh-pages@v4
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main'
         with:
-          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
