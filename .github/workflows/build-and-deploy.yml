@@ -26,7 +26,7 @@ jobs:
           cache: 'pnpm'
 
       - run: pnpm install
-      - run: pnpm exec build
+      - run: pnpm exec eleventy
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
