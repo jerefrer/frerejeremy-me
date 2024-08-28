@@ -17,18 +17,21 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+      
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
 
-      - name: Use Node.js ${{ matrix.node-version }}
+      - name: Install Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: ${{ matrix.node-version }}
-          cache: 'npm'
+          node-version: 20
+          cache: 'pnpm'
 
       - name: Install packages
-        run: npm ci
+        run: pnpm install
 
       - name: Run npm build
-        run: npm run eleventy
+        run: pnpm exec eleventy
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
