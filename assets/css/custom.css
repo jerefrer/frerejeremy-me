@@ -1,0 +1,70 @@
+.banner .image {
+  overflow: hidden;
+}
+
+.banner .image img {
+  transform: scale(1.1);
+}
+
+.banner h3 {
+  font-family: "Source Sans Pro";
+  font-size: 1.325rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.banner h4 {
+  font-family: "Source Sans Pro";
+  font-size: 1.1em;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.banner .actions { 
+  margin-top: 30px;
+}
+
+.banner .actions li {
+  margin-right: 20px;
+}
+
+.banner .actions .icon {
+  margin-left: 10px;
+  font-size: 2em;
+  vertical-align: bottom;
+}
+
+ul.contact-icons li {
+  margin: 1.20rem 0 0 0; 
+}
+
+ul.contact-icons li .image {
+  display: inline-flex;
+  width: 42px;
+  height: 42px;
+  margin-right: 15px;
+  border-radius: 50%;
+  background-color: #f8f9fa;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+ul.contact-icons li .image img {
+  width: 80%;
+}
+
+ul.contact-icons li .image.whole img {
+  top: 0px;
+  width: 100%;
+}
+
+.panel.color2 {
+  background-image:
+    url(../../images/overlay.png), 
+    linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.45) 50%, rgba(255, 228, 180, 1));
+}
