@@ -1,3 +1,13 @@
+#wrapper {
+  height: auto !important;
+  min-height: 32rem;
+}
+
+.panel {
+  height: auto !important;
+  justify-content: stretch;
+}
+
 .banner .image {
   overflow: hidden;
 }
@@ -14,6 +24,10 @@
   letter-spacing: 1px;
   margin-top: 20px;
   margin-bottom: 30px;
+}
+
+.panel p {
+  font-size: 1.325em;
 }
 
 .banner h4 {
@@ -43,16 +57,17 @@ ul.contact-icons li {
 
 ul.contact-icons li .image {
   display: inline-flex;
+  justify-content: center;
+  align-items: center;
   width: 42px;
   height: 42px;
   margin-right: 15px;
   border-radius: 50%;
   background-color: #f8f9fa;
-  justify-content: center;
-  align-items: center;
-  transition: all 0.3s;
+  border: 2px solid white;
   vertical-align: middle;
   overflow: hidden;
+  transition: all 0.3s;
 }
 
 ul.contact-icons li .image img {
