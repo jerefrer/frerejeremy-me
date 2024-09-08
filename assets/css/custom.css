@@ -88,6 +88,9 @@ ul.contact-icons li .image.whole img {
 }
 
 @media screen and (max-width: 736px) {
+  #wrapper {
+    margin: 0;
+  }
   .banner .image img {
     object-position: 0% 45%;
   }
