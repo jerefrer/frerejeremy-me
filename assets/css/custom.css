@@ -54,7 +54,39 @@
 }
 
 ul.contact-icons li {
-  margin: 1.20rem 0 0 0; 
+  margin: 1.20rem 0 0 0;
+}
+
+ul.contact-icons li a span {
+  display: inline-block;
+  transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transform-origin: left;
+}
+
+ul.contact-icons li a span.image {
+  transform-origin: center;
+}
+
+ul.contact-icons li a span.image.fa-dots {
+  font-size: 1.03em;
+  color: black;
+  background: linear-gradient(180deg, white, transparent);
+  background-size: 100% 200%;
+  background-position-y: 80%;
+  border: none;
+}
+
+ul.contact-icons li a:hover span {
+  transform: scale(1.1) translateX(5px);
+  font-weight: bold;
+}
+
+ul.contact-icons li a:hover span.image {
+  transform: scale(1.2);
+}
+
+ul.contact-icons li a:hover span.image.fa-dots {
+  background-position-y: 0%;
 }
 
 ul.contact-icons li .image {
