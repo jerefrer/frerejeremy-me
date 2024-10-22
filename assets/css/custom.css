@@ -135,11 +135,13 @@ ul.contact-icons li .image {
 
 ul.contact-icons li .image img {
   width: 80%;
+  height: 80%;
 }
 
 ul.contact-icons li .image.whole img {
   top: 0px;
   width: 100%;
+  height: 100%;
 }
 
 .panel.color2 {
