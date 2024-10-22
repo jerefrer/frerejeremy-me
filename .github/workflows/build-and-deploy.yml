@@ -1,11 +1,9 @@
 name: Deploy to GitHub Pages
-
 on:
   push:
     branches:
       - main
   pull_request:
-
 jobs:
   deploy:
     runs-on: ubuntu-22.04
@@ -28,10 +26,14 @@ jobs:
       - run: pnpm install
       - run: pnpm exec eleventy
 
-      # Add a step to create the CNAME file
+      - name: Install jampack
+        run: pnpm add -g @divriots/jampack
+
+      - name: Run jampack
+        run: pnpm exec jampack ./_site
+
       - name: Create CNAME file
         run: echo "frerejeremy.me" > ./_site/CNAME
-
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         if: github.ref == 'refs/heads/main'
