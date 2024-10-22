@@ -97,13 +97,15 @@ ul.contact-icons li a span.image {
   transform-origin: center;
 }
 
-ul.contact-icons li a span.image.fa-dots {
-  font-size: 1.03em;
-  color: black;
-  background: linear-gradient(180deg, white, transparent);
+ul.contact-icons li a .image.fa-github {
+  background: linear-gradient(180deg, #f8f9fa, transparent);
   background-size: 100% 200%;
   background-position-y: 80%;
   border: none;
+}
+ul.contact-icons li a .image.fa-github:before {
+  font-size: 2em;
+  color: black;
 }
 
 ul.contact-icons li a:hover span {
@@ -113,10 +115,7 @@ ul.contact-icons li a:hover span {
 
 ul.contact-icons li a:hover span.image {
   transform: scale(1.2);
-}
-
-ul.contact-icons li a:hover span.image.fa-dots {
-  background-position-y: 0%;
+  background: linear-gradient(180deg, #f8f9fa, #f8f9fa);
 }
 
 ul.contact-icons li .image {
@@ -127,8 +126,8 @@ ul.contact-icons li .image {
   height: 3em;
   margin-right: 0.5em;
   border-radius: 50%;
-  background-color: #f8f9fa;
-  border: 0.15em solid white;
+  background: linear-gradient(180deg, #f8f9fa, #f8f9fa);
+  border: 0.15em solid #f8f9fa;
   vertical-align: middle;
   overflow: hidden;
   transition: all 0.3s;
