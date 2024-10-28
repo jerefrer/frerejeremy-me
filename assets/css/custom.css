@@ -67,15 +67,20 @@
   transform: scale(1.2) rotate(10deg) translate(2px, -3px);
 }
 
-.banner .actions .croissant {
+.banner .actions .language-button {
   margin-top: 20px;
   color: #ffa90f !important;
   transform: scale(0.8);
   transform-origin: left;
 }
 
-.banner .actions .croissant img {
+.banner .actions .language-button img {
   width: 30px;
+  vertical-align: middle;
+}
+
+.banner .actions .english-hat img {
+  height: 23px;
   vertical-align: middle;
 }
 
