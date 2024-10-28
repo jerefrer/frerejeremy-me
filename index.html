@@ -74,27 +74,27 @@
 									</div>
 									<ul class="actions mt-2">
 										<li>
-											<a href="#projects" class="button circle large primary color1">
+											<a href="#projects" class="button primary circle large color1">
 												<span class="i18n" data-language="en">The projects</span>
 												<span class="i18n" data-language="fr">Les projets</span>
 												<span class="icon solid fa-angle-right ml-2"></span>
 											</a>
 										</li>
 										<li>
-											<a href="#contribute" class="button circle large primary color2">
+											<a href="#contribute" class="button primary circle large color2">
 												<span class="i18n" data-language="en">Contribute</span>
 												<span class="i18n" data-language="fr">Contribuer</span>
 												<span class="icon solid fa-heart"></span>
 											</a>
 										</li>
 										<li class="i18n-trigger" data-language="fr">
-											<a href="#" class="button circle large primary language-button croissant">
+											<a href="#" class="button primary circle large language-button croissant">
 												En Français s'il vous plaît
 												<img class="icon" src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' xml:space='preserve' width='1200' height='1200' viewBox='0 0 1200 1200'%3e%3cpath fill='%23ffa90f' d='M198.829 438.241s-119.717-53.62-28.375-151.294c0 0 148.186-135.593 242.703-173.471 0 0 66.343-31.439 113.612 47.27 0 0 122.875 217.615 138.639 416.174 0 0 9.481 34.663-37.878 75.583 0 0-66.164 37.878-110.308 31.528 0-.001-249.026-189.084-318.393-245.79m391.019-289.844s119.526 157.382 125.484 413.088c0 0 118.154-40.88 158.923-10.567 0 0 99.825-402.521-101.348-408.568zm354.12 95.279s45.377 95.328-3.024 282.933c0 0 72.559-7.61 124.046 18.178 0 0 108.892 49.964 80.192-122.594 0-.001-45.444-134.592-201.214-178.517M125.62 445.46s126.201 92.669 344.248 260.707c0 0-79.212 96.543-64.904 145.421 0 0-412.153-45.533-348.229-236.442zM92.699 810.668s73.69 75.578 266.47 94.976c0 0-32.2 65.576-25.873 122.719 0 0 9.218 119.464-142.66 32.877 0 0-110.762-89.147-97.937-250.572'/%3e%3c/svg%3e" alt="Croissant" fetchpriority="high">
 											</a>
 										</li>
 										<li class="i18n-trigger" data-language="en">
-											<a href="#" class="button circle large primary language-button english-hat">
+											<a href="#" class="button primary circle large language-button english-hat">
 												Say again in English?
 												<img class="icon" src="assets/images/english-hat.webp" alt="English hat" fetchpriority="high" decoding="async" width="275" height="180">
 											</a>
@@ -207,7 +207,43 @@
 								<iframe src="https://donorbox.org/embed/support-jeremy?default_interval=m" name="donorbox" allowpaymentrequest="allowpaymentrequest" seamless="seamless" frameborder="0" scrolling="no" height="900px" width="100%" style="min-width:310px;max-width:500px;max-height:none!important" allow="payment"></iframe>
 							</div>
 						</section>
-	
+
+						<section id="contact" class="panel color3">
+								<div class="intro">
+										<h2 class="i18n major" data-language="en">Contact</h2>
+										<h2 class="i18n major" data-language="fr">Contact</h2>
+								</div>
+								<div class="inner columns divided">
+										<div class="span-3-25">
+												<form method="POST" action="https://formspree.io/f/xpwzqkzn">
+														<div class="fields">
+																<div class="field half">
+																		<label for="name" class="i18n" data-language="en">Name</label>
+																		<label for="name" class="i18n" data-language="fr">Nom</label>
+																		<input type="text" name="name" id="name">
+																</div>
+																<div class="field half">
+																		<label for="email" class="i18n" data-language="en">Email</label>
+																		<label for="email" class="i18n" data-language="fr">Email</label>
+																		<input type="email" name="email" id="email">
+																</div>
+																<div class="field">
+																		<label for="message" class="i18n" data-language="en">Message</label>
+																		<label for="message" class="i18n" data-language="fr">Message</label>
+																		<textarea name="message" id="message" rows="4"></textarea>
+																</div>
+														</div>
+														<ul class="actions">
+																<li>
+																		<input type="submit" value="Send Message" class="i18n button primary" data-language="en">
+																		<input type="submit" value="Envoyer" class="i18n button primary" data-language="fr">
+																</li>
+														</ul>
+												</form>
+										</div>
+								</div>
+						</section>
+
 						<div class="copyright">
 							<a href="https://html5up.net" target="_blank" class="i18n" data-language="en">Built from HTML5 UP's Ethereal</a>
 							<a href="https://html5up.net" target="_blank" class="i18n" data-language="fr">Développé avec Ethereal de HTML5 UP</a>
