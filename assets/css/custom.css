@@ -182,3 +182,37 @@ ul.contact-icons li .image.whole img {
     padding-bottom: 14px;
   }
 }
+
+.panel.color3 {
+  background-image: url("../../assets/images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
+  background-size: 128px 128px, auto;
+  background-color: #E8B162;
+}
+
+.panel.color3-alt {
+  background-image: url("../../assets/images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.175) 25%, rgba(227, 123, 124, 0.175) 50%, rgba(255, 228, 180, 0.175));
+  background-size: 128px 128px, auto;
+  background-color: #D9A155;
+}
+
+input[type="checkbox"].color3 + label:before,
+input[type="radio"].color3 + label:before {
+  color: #E8B162;
+}
+
+ul.contact-icons.color3 > li:before {
+  color: #E8B162;
+}
+
+form label {
+  font-size: 1rem;
+}
+
+form input,
+form textarea {
+  font-size: 1.325rem;
+}
+
+form input[type="submit"] {
+  font-size: 0.7rem;
+}
