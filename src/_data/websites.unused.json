@@ -1,0 +1,24 @@
+[
+  {
+    "id": "songtsen",
+    "name": "Songtsen / Chanteloube",
+    "url": "https://www.songtsen.org/chanteloube/fr/",
+    "icon": "/assets/images/chanteloube.jpg",
+    "screenshot": "/assets/images/screenshots/songtsen.png",
+    "description": {
+      "en": "Buddhist retreat center in Dordogne, France",
+      "fr": "Centre de retraite bouddhiste en Dordogne"
+    }
+  },
+  {
+    "id": "esprit-nature",
+    "name": "Esprit Nature",
+    "url": "https://www.esprit-nature.net/",
+    "icon": "/assets/images/esprit-nature.webp",
+    "screenshot": "/assets/images/screenshots/esprit-nature.png",
+    "description": {
+      "en": "Nature and mindfulness retreats",
+      "fr": "Retraites nature et pleine conscience"
+    }
+  }
+]

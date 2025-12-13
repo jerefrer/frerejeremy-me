@@ -1,16 +1,5 @@
 [
   {
-    "id": "songtsen",
-    "name": "Songtsen / Chanteloube",
-    "url": "https://www.songtsen.org/chanteloube/fr/",
-    "icon": "/assets/images/chanteloube.jpg",
-    "screenshot": "/assets/images/screenshots/songtsen.png",
-    "description": {
-      "en": "Buddhist retreat center in Dordogne, France",
-      "fr": "Centre de retraite bouddhiste en Dordogne"
-    }
-  },
-  {
     "id": "padmakara",
     "name": "Padmakara",
     "url": "https://www.padmakara.com/",
@@ -28,8 +17,8 @@
     "icon": "/assets/images/maison-24.png",
     "screenshot": "/assets/images/screenshots/la-maison-24.png",
     "description": {
-      "en": "Community space in Paris",
-      "fr": "Espace communautaire à Paris"
+      "en": "Supporting and assisting people in precarious situations in Dordogne since 2013.",
+      "fr": "Soutenir et accompagner les personnes en situation de précarité en Dordogne depuis 2013"
     }
   },
   {
@@ -39,19 +28,8 @@
     "icon": "/assets/images/matthieu-ricard.png",
     "screenshot": "/assets/images/screenshots/matthieu-ricard.png",
     "description": {
-      "en": "Official website of Matthieu Ricard",
-      "fr": "Site officiel de Matthieu Ricard"
-    }
-  },
-  {
-    "id": "esprit-nature",
-    "name": "Esprit Nature",
-    "url": "https://www.esprit-nature.net/",
-    "icon": "/assets/images/esprit-nature.webp",
-    "screenshot": "/assets/images/screenshots/esprit-nature.png",
-    "description": {
-      "en": "Nature and mindfulness retreats",
-      "fr": "Retraites nature et pleine conscience"
+      "en": "The official website of Matthieu Ricard.",
+      "fr": "Le site officiel de Matthieu Ricard."
     }
   },
   {
@@ -61,8 +39,8 @@
     "icon": "/assets/images/100pour1.png",
     "screenshot": "/assets/images/screenshots/100-pour-1.png",
     "description": {
-      "en": "Local solidarity initiative",
-      "fr": "Initiative de solidarité locale"
+      "en": "Providing housing to migrants, regardless of their legal status.",
+      "fr": "Fournir un logement aux migrants, indépendamment de leur statut légal."
     }
   }
 ]

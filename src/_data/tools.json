@@ -6,8 +6,8 @@
     "icon": "/assets/images/tibetan-translator.png",
     "screenshot": "/assets/images/screenshots/tibetan-translator.png",
     "description": {
-      "en": "Tool for translating Tibetan texts",
-      "fr": "Outil de traduction de textes tibétains"
+      "en": "The best Tibetan dictionaries in a pleasant interface for all platforms.",
+      "fr": "Les meilleurs dictionnaires tibétains dans une interface agréable pour toutes les plateformes."
     }
   },
   {
@@ -17,8 +17,8 @@
     "icon": "/assets/images/tibetan-to-phonetics.jpg",
     "screenshot": "/assets/images/screenshots/tibetan-to-phonetics.png",
     "description": {
-      "en": "Convert Tibetan script to phonetics",
-      "fr": "Convertir l'écriture tibétaine en phonétique"
+      "en": "Convert Tibetan script to phonetics.",
+      "fr": "Convertir l'écriture tibétaine en phonétique."
     }
   },
   {
@@ -28,8 +28,8 @@
     "icon": "/assets/images/tibetan-ansi-to-unicode.png",
     "screenshot": "/assets/images/screenshots/tibetan-ansi-to-unicode.png",
     "description": {
-      "en": "Convert ANSI Tibetan to proper Unicode",
-      "fr": "Convertir du Tibétain ANSI en Unicode"
+      "en": "Convert ANSI Tibetan to proper Unicode.",
+      "fr": "Convertir du Tibétain ANSI en Unicode."
     }
   },
   {
@@ -39,8 +39,19 @@
     "icon": "/assets/images/pecha-printer.png",
     "screenshot": "/assets/images/screenshots/pecha-printer.png",
     "description": {
-      "en": "Print several pecha pages per A4/A3 sheet, ordered for easy stacking",
-      "fr": "Imprimer plusieurs pages de péchas par page A4/A3, ordonnées pour un empilement facile"
+      "en": "Print several pecha pages per A4/A3 sheet, ordered for easy stacking.",
+      "fr": "Imprimer plusieurs pages de péchas par page A4/A3, ordonnées pour un empilement facile."
+    }
+  },
+  {
+    "id": "indesign-scripts",
+    "name": "InDesign Scripts",
+    "url": "https://github.com/jerefrer/indesign-scripts-for-tibetan-booklets-and-pechas",
+    "icon": "/assets/images/indesign-scripts.png",
+    "screenshot": "/assets/images/screenshots/indesign-scripts.png",
+    "description": {
+      "en": "Dozens of InDesign scripts for working with Tibetan booklets and pechas.",
+      "fr": "Plusieurs dizaines de scripts InDesign pour travailler avec les livrets et les péchas en tibétain."
     }
   }
 ]

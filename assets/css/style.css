@@ -461,7 +461,7 @@ p {
    =================================== */
 .contact {
   padding: 80px 24px;
-  background: var(--color-bg-warm);
+  background: var(--color-bg);
 }
 
 .contact-form {
@@ -536,6 +536,16 @@ p {
   color: var(--color-text-light);
   font-size: 0.875rem;
   margin: 0;
+}
+
+.footer a {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer a:hover {
+  text-decoration: underline;
 }
 
 /* ===================================
