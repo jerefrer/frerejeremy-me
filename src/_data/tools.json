@@ -1,0 +1,46 @@
+[
+  {
+    "id": "tibetan-translator",
+    "name": "Tibetan Translator",
+    "url": "https://jerefrer.github.io/tibetan-translator/",
+    "icon": "/assets/images/tibetan-translator.png",
+    "screenshot": "/assets/images/screenshots/tibetan-translator.png",
+    "description": {
+      "en": "Tool for translating Tibetan texts",
+      "fr": "Outil de traduction de textes tibétains"
+    }
+  },
+  {
+    "id": "tibetan-to-phonetics",
+    "name": "Tibetan to Phonetics",
+    "url": "https://jerefrer.github.io/tibetan-to-phonetics-app/",
+    "icon": "/assets/images/tibetan-to-phonetics.jpg",
+    "screenshot": "/assets/images/screenshots/tibetan-to-phonetics.png",
+    "description": {
+      "en": "Convert Tibetan script to phonetics",
+      "fr": "Convertir l'écriture tibétaine en phonétique"
+    }
+  },
+  {
+    "id": "tibetan-ansi-to-unicode",
+    "name": "Tibetan ANSI to Unicode",
+    "url": "https://tibetan-ansi-to-unicode.frerejeremy.me",
+    "icon": "/assets/images/tibetan-ansi-to-unicode.png",
+    "screenshot": "/assets/images/screenshots/tibetan-ansi-to-unicode.png",
+    "description": {
+      "en": "Convert ANSI Tibetan to proper Unicode",
+      "fr": "Convertir du Tibétain ANSI en Unicode"
+    }
+  },
+  {
+    "id": "pecha-printer",
+    "name": "Pecha Printer",
+    "url": "https://pecha-printer.frerejeremy.me",
+    "icon": "/assets/images/pecha-printer.png",
+    "screenshot": "/assets/images/screenshots/pecha-printer.png",
+    "description": {
+      "en": "Print several pecha pages per A4/A3 sheet, ordered for easy stacking",
+      "fr": "Imprimer plusieurs pages de péchas par page A4/A3, ordonnées pour un empilement facile"
+    }
+  }
+]

@@ -1,0 +1,115 @@
+{
+  "site": {
+    "title": "Frère Jérémy",
+    "description": {
+      "en": "Support my tech involvement in Dharma and compassionate activities",
+      "fr": "Soutenez mon engagement technologique dans le Dharma et les activités bienveillantes"
+    }
+  },
+  "hero": {
+    "greeting": {
+      "en": "Hi, I'm Frère Jérémy",
+      "fr": "Bienvenue, je suis Frère Jérémy"
+    },
+    "intro": {
+      "en": "I offer my tech skills to support Dharma and compassionate activities, and I pray that money issues won't stand in the way of these meaningful endeavors.",
+      "fr": "Je mets mes compétences techniques au service du Dharma et d'activités bienveillantes, en espérant que l'argent ne devienne pas un frein à ces beaux projets."
+    },
+    "hope": {
+      "en": "My hope is that with enough people supporting me I can dedicate my time fully to these projects without worrying too much about financial issues.",
+      "fr": "J'ai donc l'espoir qu'avec le soutien d'un nombre suffisant de personnes, je pourrai consacrer pleinement mon temps à ces activités sans avoir à trop me soucier de l'aspect financier."
+    },
+    "callToAction": {
+      "en": "If you'd like to help me help others, your contribution would be very much appreciated!",
+      "fr": "Si vous souhaitez m'aider à aider les autres, votre contribution serait grandement appréciée !"
+    },
+    "regularContribution": {
+      "en": "Please consider a regular contribution, even small, they really do make a difference.",
+      "fr": "Merci de considérer une contribution régulière, même petite, elles font vraiment la différence."
+    }
+  },
+  "tools": {
+    "title": {
+      "en": "Tools for working with Tibetan texts",
+      "fr": "Outils pour travailler avec des textes en tibétain"
+    },
+    "intro": {
+      "en": "I build open source tools to help with translation, editing prayer books, and other needs of the Tibetan Buddhist community.",
+      "fr": "Je développe des outils open source pour aider à la traduction, à l'édition de livres de prières, et d'autres besoins de la communauté du bouddhisme tibétain."
+    },
+    "more": {
+      "en": "And more...",
+      "fr": "Et bien d'autres..."
+    },
+    "moreOnGithub": {
+      "en": "Find them all on Github",
+      "fr": "Retrouvez les tous sur GitHub ..."
+    }
+  },
+  "websites": {
+    "title": {
+      "en": "Websites I've built",
+      "fr": "Sites web que j'ai réalisés"
+    },
+    "intro": {
+      "en": "I help people and organizations build their websites for meaningful causes.",
+      "fr": "J'aide des personnes et organisations à créer leurs sites web pour des causes qui ont du sens."
+    }
+  },
+  "sponsor": {
+    "title": {
+      "en": "Support this work",
+      "fr": "Soutenir ce travail"
+    },
+    "subtitle": {
+      "en": "Your contribution helps keep these projects alive",
+      "fr": "Votre contribution aide à maintenir ces projets en vie"
+    }
+  },
+  "contact": {
+    "title": {
+      "en": "Get in touch",
+      "fr": "Me contacter"
+    },
+    "name": {
+      "en": "Name",
+      "fr": "Nom"
+    },
+    "email": {
+      "en": "Email",
+      "fr": "Email"
+    },
+    "message": {
+      "en": "Message",
+      "fr": "Message"
+    },
+    "send": {
+      "en": "Send",
+      "fr": "Envoyer"
+    }
+  },
+  "buttons": {
+    "sponsor": {
+      "en": "Sponsor me",
+      "fr": "Me soutenir"
+    },
+    "seeProjects": {
+      "en": "See the projects",
+      "fr": "Voir les projets"
+    },
+    "visitSite": {
+      "en": "Visit",
+      "fr": "Visiter"
+    }
+  },
+  "language": {
+    "switchToFrench": "En Français",
+    "switchToEnglish": "In English"
+  },
+  "footer": {
+    "credit": {
+      "en": "Made with care",
+      "fr": "Fait avec soin"
+    }
+  }
+}
