@@ -72,6 +72,10 @@
     "directContactLink": {
       "en": "Write me a message",
       "fr": "M'écrire un message"
+    },
+    "paypal": {
+      "en": "You can also support me directly via",
+      "fr": "Vous pouvez aussi me soutenir directement via"
     }
   },
   "contact": {
