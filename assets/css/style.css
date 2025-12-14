@@ -259,23 +259,23 @@ p {
   align-items: start;
 }
 
-.sponsor-text h2 {
+.support-text h2 {
   color: var(--color-white);
   margin-bottom: 1.5rem;
 }
 
-.sponsor-text p {
+.support-text p {
   font-size: 1.2rem;
   opacity: 0.95;
   margin-bottom: 1rem;
 }
 
-.sponsor-text .small {
+.support-text .small {
   font-size: 1rem;
   opacity: 0.85;
 }
 
-.sponsor-text .direct-contact {
+.support-text .direct-contact {
   margin-top: 2rem;
   padding-top: 1.5rem;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
@@ -283,14 +283,14 @@ p {
   opacity: 0.9;
 }
 
-.sponsor-text .direct-contact a {
+.support-text .direct-contact a {
   color: var(--color-white);
   text-decoration: underline;
   font-weight: 500;
   margin-left: 0.25rem;
 }
 
-.sponsor-text .direct-contact a:hover {
+.support-text .direct-contact a:hover {
   opacity: 0.8;
 }
 
