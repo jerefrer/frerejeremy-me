@@ -275,6 +275,25 @@ p {
   opacity: 0.85;
 }
 
+.sponsor-text .direct-contact {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+
+.sponsor-text .direct-contact a {
+  color: var(--color-white);
+  text-decoration: underline;
+  font-weight: 500;
+  margin-left: 0.25rem;
+}
+
+.sponsor-text .direct-contact a:hover {
+  opacity: 0.8;
+}
+
 .sponsor-widget {
   background: var(--color-white);
   border-radius: var(--radius-lg);

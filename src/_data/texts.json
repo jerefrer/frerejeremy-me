@@ -64,6 +64,14 @@
     "subtitle": {
       "en": "Your generosity keeps these projects going and growing",
       "fr": "Votre générosité permet à ces projets de continuer et de grandir"
+    },
+    "directContact": {
+      "en": "Prefer to get in touch directly?",
+      "fr": "Vous préférez me contacter directement ?"
+    },
+    "directContactLink": {
+      "en": "Write me a message",
+      "fr": "M'écrire un message"
     }
   },
   "contact": {
