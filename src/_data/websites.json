@@ -10,8 +10,38 @@
       "fr": "Comité de traduction de textes bouddhistes tibétains"
     },
     "contribution": {
-      "en": "Website development, laying out prayer booklets and pechas, currently working on internal tools and a Padmakara mobile app.",
-      "fr": "Développement du site web, mise en page de livrets de prières et de péchas, travail en cours sur des outils internes et une application mobile Padmakara."
+      "en": "Website development, laying out prayer booklets and pechas, currently working on the website redesign, internal tools and a Padmakara mobile app.",
+      "fr": "Développement du site web, mise en page de livrets de prières et de péchas, travail en cours sur la refonte du site web, des outils internes et une application mobile Padmakara."
+    }
+  },
+  {
+    "id": "khyentse-vision",
+    "name": "Khyentse Vision Project (KVP)",
+    "url": "https://www.khyentsevision.org/",
+    "icon": "/assets/images/khyentse-vision.png",
+    "screenshot": "/assets/images/screenshots/khyentse-vision.png",
+    "description": {
+      "en": "Translating the Works of Jamyang Khyentse Wangpo",
+      "fr": "Traduction des œuvres de Jamyang Khyentse Wangpo"
+    },
+    "contribution": {
+      "en": "Helping refine the phonetics generation tool used to produce the texts.",
+      "fr": "Aide à l'amélioration du générateur de phonétique utilisé pour produire les textes."
+    }
+  },
+  {
+    "id": "bdrc",
+    "name": "Buddhist Digital Resource Center (BDRC)",
+    "url": "https://www.bdrc.io/",
+    "icon": "/assets/images/bdrc.png",
+    "screenshot": "/assets/images/screenshots/bdrc.png",
+    "description": {
+      "en": "Preserving Buddhist Literature for the World",
+      "fr": "Preservation de la littérature bouddhiste pour le monde"
+    },
+    "contribution": {
+      "en": "Helping with the Optical Text Recognition (OCR) application.",
+      "fr": "Amélioration de l'application de reconnaissance de texte (OCR)."
     }
   },
   {
@@ -25,8 +55,8 @@
       "fr": "Soutenir et accompagner les personnes en situation de précarité en Dordogne depuis 2013"
     },
     "contribution": {
-      "en": "Redesign, content updates, also helping with producing documents like flyers, annual reports and the like.",
-      "fr": "Refonte, mise à jour du contenu, aide à la production de documents comme des flyers, rapports annuels et autres."
+      "en": "Website redesign, content updates, also helping with producing documents like flyers, annual reports and the like.",
+      "fr": "Refonte du site web, mise à jour du contenu, aide à la production de documents comme des flyers, rapports annuels et autres."
     }
   },
   {
