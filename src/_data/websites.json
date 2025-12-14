@@ -8,6 +8,10 @@
     "description": {
       "en": "Translation committee for Tibetan Buddhist texts",
       "fr": "Comité de traduction de textes bouddhistes tibétains"
+    },
+    "contribution": {
+      "en": "Website development, laying out prayer booklets and pechas, currently working on internal tools and a Padmakara mobile app.",
+      "fr": "Développement du site web, mise en page de livrets de prières et de péchas, travail en cours sur des outils internes et une application mobile Padmakara."
     }
   },
   {
@@ -19,6 +23,10 @@
     "description": {
       "en": "Supporting and assisting people in precarious situations in Dordogne since 2013.",
       "fr": "Soutenir et accompagner les personnes en situation de précarité en Dordogne depuis 2013"
+    },
+    "contribution": {
+      "en": "Redesign, content updates, also helping with producing documents like flyers, annual reports and the like.",
+      "fr": "Refonte, mise à jour du contenu, aide à la production de documents comme des flyers, rapports annuels et autres."
     }
   },
   {
@@ -30,6 +38,10 @@
     "description": {
       "en": "The official website of Matthieu Ricard.",
       "fr": "Le site officiel de Matthieu Ricard."
+    },
+    "contribution": {
+      "en": "Updating content.",
+      "fr": "Mise à jour du contenu."
     }
   },
   {
@@ -41,6 +53,10 @@
     "description": {
       "en": "Providing housing to migrants, regardless of their legal status.",
       "fr": "Fournir un logement aux migrants, indépendamment de leur statut légal."
+    },
+    "contribution": {
+      "en": "Built the whole website on Wix.",
+      "fr": "Création complète sur Wix."
     }
   }
 ]

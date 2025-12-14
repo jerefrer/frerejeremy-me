@@ -48,12 +48,12 @@
   },
   "websites": {
     "title": {
-      "en": "Websites I've worked on",
-      "fr": "Sites web auxquels je contribue"
+      "en": "Other projects",
+      "fr": "Autres projets"
     },
     "intro": {
-      "en": "I help people and organizations build their websites for meaningful causes.",
-      "fr": "J'aide des personnes et organisations à créer leurs sites web pour des causes qui ont du sens."
+      "en": "Other projects I've worked on or working on at the moment.",
+      "fr": "Autres projets auxquels j'ai contribué ou sur lesquels je travaille actuellement."
     }
   },
   "sponsor": {
@@ -98,8 +98,8 @@
       "fr": "Outils pour le tibétain"
     },
     "seeWebsites": {
-      "en": "Websites",
-      "fr": "Sites web"
+      "en": "Other projects",
+      "fr": "Autres projets"
     },
     "visitSite": {
       "en": "Visit",
