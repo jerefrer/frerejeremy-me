@@ -16,16 +16,16 @@
       "fr": "Je mets mes compétences techniques au service du Dharma et d'initiatives bienveillantes. Mon souhait est que les questions d'argent ne fassent jamais obstacle à des projets qui comptent vraiment."
     },
     "hope": {
-      "en": "With the support of people like you, I can focus fully on these projects instead of worrying about making ends meet.",
-      "fr": "Grâce au soutien de personnes comme vous, je peux me consacrer pleinement à ce travail sans me soucier de joindre les deux bouts."
+      "en": "With the support of people like you, I can focus fully on these projects.",
+      "fr": "Grâce au soutien de personnes comme vous, je peux me consacrer pleinement à ces travaux."
     },
     "callToAction": {
       "en": "If you'd like to help me help others, your support would mean a lot!",
-      "fr": "Si vous souhaitez m'aider à aider les autres, votre soutien serait très apprécié !"
+      "fr": "Si vous souhaitez m'aider à aider les autres, votre soutien est le bienvenu !"
     },
     "regularContribution": {
-      "en": "Even a small regular contribution makes a real difference.",
-      "fr": "Même une petite contribution régulière fait une vraie différence."
+      "en": "Regular contributions, even small, really do make a difference.",
+      "fr": "Une contribution régulière, même modeste, fait vraiment la différence."
     }
   },
   "tools": {
@@ -66,16 +66,16 @@
       "fr": "Votre générosité permet à ces projets de continuer et de grandir"
     },
     "directContact": {
-      "en": "Prefer to get in touch directly?",
-      "fr": "Vous préférez me contacter directement ?"
+      "en": "Prefer to get in touch?",
+      "fr": "Vous préférez me contacter ?"
     },
     "directContactLink": {
       "en": "Write me a message",
-      "fr": "M'écrire un message"
+      "fr": "Écrivez-moi un message"
     },
     "paypal": {
-      "en": "You can also support me directly via",
-      "fr": "Vous pouvez aussi me soutenir directement via"
+      "en": "You can also support me via",
+      "fr": "Vous pouvez aussi me soutenir via"
     }
   },
   "contact": {

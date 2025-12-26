@@ -271,8 +271,23 @@ p {
 }
 
 .support-text .small {
-  font-size: 1rem;
-  opacity: 0.85;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 1rem 1.25rem;
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: var(--radius-md);
+  border-left: 3px solid rgba(255, 255, 255, 0.4);
+  margin-bottom: 1.5rem;
+  opacity: 0.95;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.support-text .small .emoji-icon {
+  font-size: 1.4rem;
+  flex-shrink: 0;
+  line-height: 1;
 }
 
 .support-text .direct-contact {
@@ -281,13 +296,26 @@ p {
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   font-size: 0.95rem;
   opacity: 0.9;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.support-text .direct-contact .contact-icon {
+  flex-shrink: 0;
+  opacity: 0.8;
+}
+
+.support-text .direct-contact #paypal-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
 }
 
 .support-text .direct-contact a {
   color: var(--color-white);
   text-decoration: underline;
   font-weight: 500;
-  margin-left: 0.25rem;
 }
 
 .support-text .direct-contact a:hover {
