@@ -18,7 +18,18 @@
     "screenshot": "/assets/images/screenshots/tibetan-to-phonetics.png",
     "description": {
       "en": "Convert Tibetan script to phonetics.",
-      "fr": "Convertir l'écriture tibétaine en phonétique."
+      "fr": "Convertir du tibétain en phonétique."
+    }
+  },
+  {
+    "id": "tibetan-mantra-to-iast-and-phonetics",
+    "name": "Tibetan Mantra to IAST and Phonetics",
+    "url": "https://jerefrer.github.io/tibetan-mantra-to-iast-and-phonetics-app/",
+    "icon": "/assets/images/tibetan-mantra-to-iast-and-phonetics.png",
+    "screenshot": "/assets/images/screenshots/tibetan-mantra-to-iast-and-phonetics.png",
+    "description": {
+      "en": "Convert Tibetan mantras to IAST and phonetics.",
+      "fr": "Convertir les mantras tibétains en IAST et en phonétique."
     }
   },
   {
