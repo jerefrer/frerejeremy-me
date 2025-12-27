@@ -64,5 +64,16 @@
       "en": "Dozens of InDesign scripts for working with Tibetan booklets and pechas.",
       "fr": "Plusieurs dizaines de scripts InDesign pour travailler avec les livrets et les péchas en tibétain."
     }
+  },
+  {
+    "id": "word-scripts",
+    "name": "Word Scripts",
+    "url": "https://github.com/jerefrer/word-scripts",
+    "icon": "/assets/images/word-scripts.png",
+    "screenshot": "/assets/images/screenshots/word-scripts.png",
+    "description": {
+      "en": "Dozens of Word scripts for working with Tibetan booklets and pechas.",
+      "fr": "Plusieurs dizaines de scripts Word pour travailler avec les livrets et les péchas en tibétain."
+    }
   }
 ]
