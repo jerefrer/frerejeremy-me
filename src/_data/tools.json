@@ -22,6 +22,17 @@
     }
   },
   {
+    "id": "kvp-phonserv",
+    "name": "Tibetan to Phonetics for KVP",
+    "url": "https://github.com/eroux/kvp-phonserv",
+    "icon": "/assets/images/khyentse-vision.png",
+    "screenshot": "/assets/images/screenshots/kvp-phonserv.png",
+    "description": {
+      "en": "Helping the Khyentse Vision Project with their own Tibetan to phonetics converter.",
+      "fr": "J'aide le Khyentse Vision Project avec leur propre convertisseur du tibétain en phonétique."
+    }
+  },
+  {
     "id": "tibetan-mantra-to-iast-and-phonetics",
     "name": "Tibetan Mantra to IAST and Phonetics",
     "url": "https://jerefrer.github.io/tibetan-mantra-to-iast-and-phonetics-app/",
