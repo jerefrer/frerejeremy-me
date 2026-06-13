@@ -46,10 +46,20 @@
       "fr": "Découvrez sur Github sur quoi je travaille en ce moment."
     }
   },
+  "apps": {
+    "title": {
+      "en": "Other open source tools",
+      "fr": "Autres outils open source"
+    },
+    "intro": {
+      "en": "Not everything I build is about Tibetan. Here are some other open source apps I make for anyone to use.",
+      "fr": "Tout ce que je crée n'est pas lié au tibétain. Voici d'autres applications open source que je développe, utiles à tous."
+    }
+  },
   "websites": {
     "title": {
-      "en": "Other projects",
-      "fr": "Autres projets"
+      "en": "Collaborations",
+      "fr": "Collaborations"
     },
     "intro": {
       "en": "Other projects I've worked on or working on at the moment.",
@@ -107,11 +117,15 @@
     },
     "seeTools": {
       "en": "Tibetan tools",
-      "fr": "Outils pour le tibétain"
+      "fr": "Outils tibétains"
+    },
+    "seeApps": {
+      "en": "Open source apps",
+      "fr": "Apps open source"
     },
     "seeWebsites": {
-      "en": "Other projects",
-      "fr": "Autres projets"
+      "en": "Collaborations",
+      "fr": "Collaborations"
     },
     "visitSite": {
       "en": "Visit",

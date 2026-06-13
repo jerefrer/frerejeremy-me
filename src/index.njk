@@ -70,6 +70,10 @@
               <span class="i18n" data-lang="en">{{ texts.buttons.seeTools.en }}</span>
               <span class="i18n" data-lang="fr">{{ texts.buttons.seeTools.fr }}</span>
             </a>
+            <a href="#apps" class="btn btn-secondary">
+              <span class="i18n" data-lang="en">{{ texts.buttons.seeApps.en }}</span>
+              <span class="i18n" data-lang="fr">{{ texts.buttons.seeApps.fr }}</span>
+            </a>
             <a href="#websites" class="btn btn-secondary">
               <span class="i18n" data-lang="en">{{ texts.buttons.seeWebsites.en }}</span>
               <span class="i18n" data-lang="fr">{{ texts.buttons.seeWebsites.fr }}</span>
@@ -281,8 +285,57 @@
         </div>
       </div>
     </section>
+    <!-- Open Source Apps Section -->
+    <section class="projects projects-alt" id="apps">
+      <div class="container">
+        <header class="section-header">
+          <h2>
+            <span class="i18n" data-lang="en">{{ texts.apps.title.en }}</span>
+            <span class="i18n" data-lang="fr">{{ texts.apps.title.fr }}</span>
+          </h2>
+          <p>
+            <span class="i18n" data-lang="en">{{ texts.apps.intro.en }}</span>
+            <span class="i18n" data-lang="fr">{{ texts.apps.intro.fr }}</span>
+          </p>
+        </header>
+        <div class="projects-grid">
+          {%- for app in apps -%}
+            <a href="{{ app.url }}" target="_blank" rel="noopener" class="project-card">
+              <div class="project-screenshot">
+                <img src="{{ app.screenshot }}" alt="{{ app.name }} screenshot" loading="lazy"/>
+              </div>
+              <div class="project-info">
+                <div class="project-header">
+                  <img src="{{ app.icon }}" alt="" class="project-icon" loading="lazy"/>
+                  <h3>{{ app.name }}</h3>
+                </div>
+                <p class="project-description">
+                  <span class="i18n" data-lang="en">{{ app.description.en }}</span>
+                  <span class="i18n" data-lang="fr">{{ app.description.fr }}</span>
+                </p>
+                <span class="project-link">
+                  <span class="i18n" data-lang="en">{{ texts.buttons.visitSite.en }}</span>
+                  <span class="i18n" data-lang="fr">{{ texts.buttons.visitSite.fr }}</span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewbox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/>
+                  </svg>
+                </span>
+              </div>
+            </a>
+          {%- endfor -%}
+        </div>
+      </div>
+    </section>
     <!-- Websites Section -->
-    <section class="projects projects-alt" id="websites">
+    <section class="projects" id="websites">
       <div class="container">
         <header class="section-header">
           <h2>

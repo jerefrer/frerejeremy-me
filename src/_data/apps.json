@@ -1,0 +1,24 @@
+[
+  {
+    "id": "imprint",
+    "name": "Imprint",
+    "url": "https://jerefrer.github.io/imprint/",
+    "icon": "/assets/images/imprint.png",
+    "screenshot": "/assets/images/screenshots/imprint.png",
+    "description": {
+      "en": "A macOS app to add captions to your TIFF photos from a spreadsheet (Excel or CSV).",
+      "fr": "Une app macOS pour ajouter des légendes à vos photos TIFF depuis un tableur (Excel ou CSV)."
+    }
+  },
+  {
+    "id": "captioneer",
+    "name": "Captioneer",
+    "url": "https://jerefrer.github.io/captioneer/",
+    "icon": "/assets/images/captioneer.png",
+    "screenshot": "/assets/images/screenshots/captioneer.png",
+    "description": {
+      "en": "A macOS app to extract the captions out of your photos into an Excel spreadsheet.",
+      "fr": "Une app macOS pour extraire les légendes de vos photos vers un tableur Excel."
+    }
+  }
+]

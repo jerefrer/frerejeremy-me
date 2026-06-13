@@ -223,7 +223,19 @@ p {
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
-  gap: 16px;
+  gap: 12px;
+}
+
+/* Compact buttons in the hero so all nav links fit on one row */
+.hero-actions .btn {
+  padding: 11px 18px;
+  font-size: 0.9rem;
+  gap: 6px;
+}
+
+.hero-actions .btn svg {
+  width: 17px;
+  height: 17px;
 }
 
 .hero-image {
