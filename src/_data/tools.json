@@ -44,14 +44,14 @@
     }
   },
   {
-    "id": "tibetan-ansi-to-unicode",
-    "name": "Tibetan ANSI to Unicode",
-    "url": "https://tibetan-ansi-to-unicode.frerejeremy.me",
-    "icon": "/assets/images/tibetan-ansi-to-unicode.png",
-    "screenshot": "/assets/images/screenshots/tibetan-ansi-to-unicode.png",
+    "id": "easy-tibetan-copy",
+    "name": "Easy Tibetan Copy",
+    "url": "https://buda-base.github.io/easy-tibetan-copy/",
+    "icon": "/assets/images/easy-tibetan-copy.png",
+    "screenshot": "/assets/images/screenshots/easy-tibetan-copy.png",
     "description": {
-      "en": "Convert ANSI Tibetan to proper Unicode.",
-      "fr": "Convertir du Tibétain ANSI en Unicode."
+      "en": "Make Tibetan in PDFs, Word and RTF copy, search and paste as correct Unicode — all in your browser.",
+      "fr": "Rendre le tibétain des PDF, Word et RTF copiable, cherchable et collable en Unicode correct — directement dans le navigateur."
     }
   },
   {
