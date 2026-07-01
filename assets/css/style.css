@@ -400,20 +400,11 @@ p {
   position: relative;
 }
 
-.project-screenshot::before {
-  content: "Screenshot";
-  position: absolute;
-  color: var(--color-text-light);
-  font-size: 0.875rem;
-  opacity: 0.6;
-}
-
 .project-screenshot img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center top;
-  filter: grayscale(0.9);
   transition: all var(--transition);
 }
 
@@ -425,7 +416,6 @@ p {
 
 .project-card:hover .project-screenshot img {
   transform: scale(1.05);
-  filter: grayscale(0);
 }
 
 .project-info {
