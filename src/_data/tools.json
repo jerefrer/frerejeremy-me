@@ -11,6 +11,17 @@
     }
   },
   {
+    "id": "easy-tibetan-copy",
+    "name": "Easy Tibetan Copy",
+    "url": "https://buda-base.github.io/easy-tibetan-copy/",
+    "icon": "/assets/images/easy-tibetan-copy.png",
+    "screenshot": "/assets/images/screenshots/easy-tibetan-copy.png",
+    "description": {
+      "en": "Make Tibetan in PDFs, Word and RTF copy, search and paste as correct Unicode — all in your browser.",
+      "fr": "Rendre le tibétain des PDF, Word et RTF copiable, cherchable et collable en Unicode correct — directement dans le navigateur."
+    }
+  },
+  {
     "id": "tibetan-to-phonetics",
     "name": "Tibetan to Phonetics",
     "url": "https://jerefrer.github.io/tibetan-to-phonetics-app/",
@@ -41,17 +52,6 @@
     "description": {
       "en": "Convert Tibetan mantras to IAST and phonetics.",
       "fr": "Convertir les mantras tibétains en IAST et en phonétique."
-    }
-  },
-  {
-    "id": "easy-tibetan-copy",
-    "name": "Easy Tibetan Copy",
-    "url": "https://buda-base.github.io/easy-tibetan-copy/",
-    "icon": "/assets/images/easy-tibetan-copy.png",
-    "screenshot": "/assets/images/screenshots/easy-tibetan-copy.png",
-    "description": {
-      "en": "Make Tibetan in PDFs, Word and RTF copy, search and paste as correct Unicode — all in your browser.",
-      "fr": "Rendre le tibétain des PDF, Word et RTF copiable, cherchable et collable en Unicode correct — directement dans le navigateur."
     }
   },
   {
