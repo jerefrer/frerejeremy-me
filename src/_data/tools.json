@@ -22,6 +22,17 @@
     }
   },
   {
+    "id": "pecha-printer",
+    "name": "Pecha Printer",
+    "url": "https://pecha-printer.frerejeremy.me",
+    "icon": "/assets/images/pecha-printer.png",
+    "screenshot": "/assets/images/screenshots/pecha-printer.png",
+    "description": {
+      "en": "Print several pecha pages per A4/A3 sheet, ordered for easy stacking.",
+      "fr": "Imprimer plusieurs pages de péchas par page A4/A3, ordonnées pour un empilement facile."
+    }
+  },
+  {
     "id": "tibetan-to-phonetics",
     "name": "Tibetan to Phonetics",
     "url": "https://jerefrer.github.io/tibetan-to-phonetics-app/",
@@ -52,17 +63,6 @@
     "description": {
       "en": "Convert Tibetan mantras to IAST and phonetics.",
       "fr": "Convertir les mantras tibétains en IAST et en phonétique."
-    }
-  },
-  {
-    "id": "pecha-printer",
-    "name": "Pecha Printer",
-    "url": "https://pecha-printer.frerejeremy.me",
-    "icon": "/assets/images/pecha-printer.png",
-    "screenshot": "/assets/images/screenshots/pecha-printer.png",
-    "description": {
-      "en": "Print several pecha pages per A4/A3 sheet, ordered for easy stacking.",
-      "fr": "Imprimer plusieurs pages de péchas par page A4/A3, ordonnées pour un empilement facile."
     }
   },
   {
