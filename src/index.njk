@@ -69,7 +69,7 @@
             <h1>{{ t(texts.hero.greeting) }}</h1>
             <p class="lead">{{ t(texts.hero.intro) }}</p>
             <div class="actions">
-              <a class="btn btn-primary" href="#support">{{ t(texts.hero.support) }}</a>
+              <a class="btn btn-primary" href="#support">{{ heart() }}{{ t(texts.hero.support) }}</a>
               <a class="btn btn-ghost" href="#tools">{{ t(texts.hero.see) }}</a>
             </div>
             <p class="supporters">{{ t(texts.supporters) }}</p>
@@ -152,7 +152,7 @@
           <p class="supporters">{{ t(texts.supporters) }}</p>
         </div>
         <div class="support-actions">
-          <a class="btn btn-primary btn-block" href="{{ texts.support.giveUrl }}" target="_blank" rel="noopener">{{ heart() }}{{ t(texts.support.give) }}</a>
+          <a class="btn btn-primary btn-block" href="{{ texts.support.giveUrl }}" target="_blank" rel="noopener"><span class="btn-main">{{ heart() }}{{ t(texts.support.give) }}</span><span class="btn-sub">{{ t(texts.support.giveMethods) }}</span></a>
           <a class="btn btn-ghost btn-block" href="https://github.com/sponsors/jerefrer" target="_blank" rel="noopener">{{ github() }}{{ t(texts.support.github) }}</a>
           <p class="paypal">{{ t(texts.support.paypal) }} <a href="https://paypal.me/frerejeremy108" target="_blank" rel="noopener">PayPal {{ ext() }}</a></p>
           <details class="write" id="contact">
