@@ -25,27 +25,7 @@
     <meta name="twitter:description" content="{{ texts.site.description.en }}"/>
     <meta name="twitter:image" content="https://frerejeremy.me/assets/images/og-image.jpg"/>
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png"/>
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png"/>
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png"/>
-    <link rel="manifest" href="/assets/favicon/site.webmanifest"/>
-
-    <link rel="preload" href="/assets/fonts/literata-latin.woff2" as="font" type="font/woff2" crossorigin/>
-    <link rel="preload" href="/assets/fonts/figtree-latin.woff2" as="font" type="font/woff2" crossorigin/>
-    <link rel="stylesheet" href="/assets/css/site.css"/>
-
-    <script>
-      // Pick the language before first paint so there is no flash of the wrong one.
-      (function () {
-        var lang = "en";
-        try {
-          var saved = localStorage.getItem("preferredLanguage");
-          if (saved === "en" || saved === "fr") lang = saved;
-          else if ((navigator.language || "").slice(0, 2) === "fr") lang = "fr";
-        } catch (e) {}
-        document.documentElement.lang = lang;
-      })();
-    </script>
+{% include "head-assets.njk" %}
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -57,23 +37,6 @@
       "description": "{{ texts.site.description.en }}",
       "sameAs": ["https://github.com/jerefrer"]
     }
-    </script>
-    <!-- Matomo -->
-    <script>
-      var _paq = (window._paq = window._paq || []);
-      _paq.push(["trackPageView"]);
-      _paq.push(["enableLinkTracking"]);
-      (function () {
-        var u = "//analytics.frerejeremy.me/";
-        _paq.push(["setTrackerUrl", u + "matomo.php"]);
-        _paq.push(["setSiteId", "1"]);
-        var d = document,
-          g = d.createElement("script"),
-          s = d.getElementsByTagName("script")[0];
-        g.async = true;
-        g.src = u + "matomo.js";
-        s.parentNode.insertBefore(g, s);
-      })();
     </script>
   </head>
   <body id="top">
@@ -215,16 +178,7 @@
       </section>
     </main>
 
-    <footer class="site-footer">
-      <div class="wrap footer-inner">
-        <span>{{ t(texts.footer.made) }} <a href="https://www.11ty.dev/" target="_blank" rel="noopener">Eleventy</a> {{ t(texts.footer.suffix) }}</span>
-        <span class="footer-links">
-          <a href="https://github.com/jerefrer" target="_blank" rel="noopener">GitHub</a>
-          <a href="https://github.com/sponsors/jerefrer" target="_blank" rel="noopener">GitHub Sponsors</a>
-          <a href="{{ texts.tools.toolboxUrl }}" target="_blank" rel="noopener">{{ t(texts.footer.toolbox) }}</a>
-        </span>
-      </div>
-    </footer>
+{% include "footer.njk" %}
 
     <script src="/assets/js/site.js" defer></script>
   </body>
