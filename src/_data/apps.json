@@ -1,10 +1,29 @@
 [
   {
+    "id": "mic-light",
+    "name": "Mic Light",
+    "url": "https://jerefrer.github.io/mic-light/",
+    "icon": "/assets/images/mic-light.webp",
+    "description": {
+      "en": "Know at a glance whether Zoom can hear you. macOS.",
+      "fr": "Savoir d'un coup d'œil si Zoom vous entend. macOS."
+    }
+  },
+  {
+    "id": "headcount",
+    "name": "Headcount",
+    "url": "https://jerefrer.github.io/headcount/",
+    "icon": "/assets/images/headcount.svg",
+    "description": {
+      "en": "Attendance reports for Zoom webinars, in your browser.",
+      "fr": "Rapports de présence pour webinaires Zoom, dans votre navigateur."
+    }
+  },
+  {
     "id": "imprint",
     "name": "Imprint",
     "url": "https://jerefrer.github.io/imprint/",
-    "icon": "/assets/images/imprint.png",
-    "screenshot": "/assets/images/screenshots/imprint.png",
+    "icon": "/assets/images/imprint-icon.webp",
     "description": {
       "en": "A macOS app to add captions to your TIFF photos from a spreadsheet (Excel or CSV).",
       "fr": "Une app macOS pour ajouter des légendes à vos photos TIFF depuis un tableur (Excel ou CSV)."
@@ -14,8 +33,7 @@
     "id": "captioneer",
     "name": "Captioneer",
     "url": "https://jerefrer.github.io/captioneer/",
-    "icon": "/assets/images/captioneer.png",
-    "screenshot": "/assets/images/screenshots/captioneer.png",
+    "icon": "/assets/images/captioneer-icon.webp",
     "description": {
       "en": "A macOS app to extract the captions out of your photos into an Excel spreadsheet.",
       "fr": "Une app macOS pour extraire les légendes de vos photos vers un tableur Excel."

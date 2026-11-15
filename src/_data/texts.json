@@ -1,0 +1,106 @@
+{
+  "site": {
+    "name": "Frère Jérémy",
+    "title": {
+      "en": "Frère Jérémy — Open source tools for the Dharma and compassionate initiatives",
+      "fr": "Frère Jérémy — Outils open source pour le Dharma et les initiatives bienveillantes"
+    },
+    "description": {
+      "en": "Open source tools for Tibetan texts, free apps and websites for Dharma and compassionate initiatives, made by Frère Jérémy. Support this work.",
+      "fr": "Outils open source pour les textes tibétains, apps gratuites et sites pour le Dharma et les initiatives bienveillantes, par Frère Jérémy. Soutenez ce travail."
+    }
+  },
+  "nav": {
+    "label": { "en": "Main", "fr": "Principale" },
+    "tools": { "en": "Tibetan tools", "fr": "Outils tibétains" },
+    "apps": { "en": "Apps", "fr": "Apps" },
+    "work": { "en": "Collaborations", "fr": "Collaborations" },
+    "support": { "en": "Support", "fr": "Soutenir" },
+    "language": { "en": "Language", "fr": "Langue" }
+  },
+  "hero": {
+    "greeting": {
+      "en": "Hi, I'm Frère Jérémy.",
+      "fr": "Hey, ici Frère Jérémy."
+    },
+    "intro": {
+      "en": "I use my tech skills to serve the Dharma and support compassionate initiatives. My wish is that financial concerns never get in the way of work that truly matters.",
+      "fr": "Je mets mes compétences techniques au service du Dharma et d'initiatives bienveillantes. Mon souhait est que les questions d'argent ne fassent jamais obstacle à des projets qui comptent vraiment."
+    },
+    "photoAlt": {
+      "en": "Half of Frère Jérémy's face, smiling, with red glasses",
+      "fr": "La moitié du visage souriant de Frère Jérémy, avec des lunettes rouges"
+    },
+    "support": { "en": "Support this work", "fr": "Soutenir ce travail" },
+    "see": { "en": "See what I make", "fr": "Voir ce que je crée" }
+  },
+  "supporters": {
+    "en": "8 people support this work every month. Thank you! 🙏",
+    "fr": "8 personnes soutiennent ce travail chaque mois. Merci ! 🙏"
+  },
+  "tools": {
+    "title": {
+      "en": "Tools for working with Tibetan texts",
+      "fr": "Outils utiles pour les textes en tibétain"
+    },
+    "intro": {
+      "en": "Dictionaries, phonetics, mantras, pechas, copyable PDFs: I build open source tools for translators and the Tibetan Buddhist community. They now live, alongside other people's tools, in one place.",
+      "fr": "Dictionnaires, phonétique, mantras, péchas, PDF copiables : je développe des outils open source pour les traducteurs et la communauté du bouddhisme tibétain. Ils sont désormais réunis, avec les outils d'autres auteurs, au même endroit."
+    },
+    "toolbox": { "en": "Open the Tibetan Toolbox", "fr": "Ouvrir la Tibetan Toolbox" },
+    "toolboxUrl": "https://jerefrer.github.io/tibetan-toolbox/"
+  },
+  "apps": {
+    "title": { "en": "Apps for everyone", "fr": "Des apps pour tous" },
+    "intro": {
+      "en": "Not everything I build is about Tibetan. These are free and open source.",
+      "fr": "Tout ce que je crée n'est pas lié au tibétain. Ces apps sont gratuites et open source."
+    }
+  },
+  "work": {
+    "title": { "en": "Working alongside", "fr": "Travailler aux côtés de" },
+    "intro": {
+      "en": "Other projects I've worked on or working on at the moment.",
+      "fr": "Autres projets auxquels j'ai contribué ou sur lesquels je travaille actuellement."
+    },
+    "visit": { "en": "Visit", "fr": "Visiter" }
+  },
+  "support": {
+    "title": {
+      "en": "If you'd like to help me help others",
+      "fr": "Si vous souhaitez m'aider à aider les autres"
+    },
+    "text": {
+      "en": "Everything here is free. Regular contributions, even small, are what let me keep building it.",
+      "fr": "Tout ce que vous trouvez ici est gratuit. Les contributions régulières, même modestes, sont ce qui me permet de continuer à le construire."
+    },
+    "give": {
+      "en": "Give monthly or once — card, Apple Pay, PayPal",
+      "fr": "Donner chaque mois ou une fois — carte, Apple Pay, PayPal"
+    },
+    "giveUrl": "https://donorbox.org/support-jeremy?default_interval=m",
+    "github": {
+      "en": "Developer? Sponsor on GitHub",
+      "fr": "Développeur ? Soutenez-moi sur GitHub"
+    },
+    "paypal": { "en": "You can also use", "fr": "Vous pouvez aussi utiliser" },
+    "write": { "en": "Prefer to write to me?", "fr": "Vous préférez m'écrire ?" }
+  },
+  "contact": {
+    "name": { "en": "Name", "fr": "Nom" },
+    "email": { "en": "Email", "fr": "Email" },
+    "message": { "en": "Message", "fr": "Message" },
+    "send": { "en": "Send", "fr": "Envoyer" }
+  },
+  "footer": {
+    "made": {
+      "en": "Made by Frère Jérémy · statically built with",
+      "fr": "Fait par Frère Jérémy · généré statiquement avec"
+    },
+    "suffix": {
+      "en": "for a low carbon footprint",
+      "fr": "pour une faible empreinte carbone"
+    },
+    "toolbox": { "en": "Tibetan Toolbox", "fr": "Tibetan Toolbox" }
+  }
+}

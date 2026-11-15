@@ -3,8 +3,7 @@
     "id": "padmakara",
     "name": "Padmakara",
     "url": "https://www.padmakara.com/",
-    "icon": "/assets/images/padmakara.jpg",
-    "screenshot": "/assets/images/screenshots/padmakara.png",
+    "icon": "/assets/images/logo-padmakara.webp",
     "description": {
       "en": "Translation committee for Tibetan Buddhist texts",
       "fr": "Comité de traduction de textes bouddhistes tibétains"
@@ -18,8 +17,7 @@
     "id": "khyentse-vision",
     "name": "Khyentse Vision Project (KVP)",
     "url": "https://www.khyentsevision.org/",
-    "icon": "/assets/images/khyentse-vision.png",
-    "screenshot": "/assets/images/screenshots/khyentse-vision.png",
+    "icon": "/assets/images/logo-khyentse-vision.webp",
     "description": {
       "en": "Translating the Works of Jamyang Khyentse Wangpo",
       "fr": "Traduction des œuvres de Jamyang Khyentse Wangpo"
@@ -33,8 +31,7 @@
     "id": "bdrc",
     "name": "Buddhist Digital Resource Center (BDRC)",
     "url": "https://www.bdrc.io/",
-    "icon": "/assets/images/bdrc.png",
-    "screenshot": "/assets/images/screenshots/bdrc.png",
+    "icon": "/assets/images/logo-bdrc.webp",
     "description": {
       "en": "Preserving Buddhist Literature for the World",
       "fr": "Preservation de la littérature bouddhiste pour le monde"
@@ -48,8 +45,7 @@
     "id": "maison24",
     "name": "La Maison 24",
     "url": "https://www.lamaison24.net/",
-    "icon": "/assets/images/maison-24.png",
-    "screenshot": "/assets/images/screenshots/la-maison-24.png",
+    "icon": "/assets/images/logo-maison-24.webp",
     "description": {
       "en": "Supporting and assisting people in precarious situations in Dordogne since 2013.",
       "fr": "Soutenir et accompagner les personnes en situation de précarité en Dordogne depuis 2013"
@@ -63,8 +59,7 @@
     "id": "matthieu-ricard",
     "name": "MatthieuRicard.org",
     "url": "https://www.matthieuricard.org/",
-    "icon": "/assets/images/matthieu-ricard.png",
-    "screenshot": "/assets/images/screenshots/matthieu-ricard.png",
+    "icon": "/assets/images/logo-matthieu-ricard.webp",
     "description": {
       "en": "The official website of Matthieu Ricard.",
       "fr": "Le site officiel de Matthieu Ricard."
@@ -78,8 +73,7 @@
     "id": "100pour1",
     "name": "100 pour 1 Périgord",
     "url": "https://www.100pour1perigord.org/",
-    "icon": "/assets/images/100pour1.png",
-    "screenshot": "/assets/images/screenshots/100-pour-1.png",
+    "icon": "/assets/images/logo-100pour1.webp",
     "description": {
       "en": "Providing housing to migrants, regardless of their legal status.",
       "fr": "Fournir un logement aux migrants, indépendamment de leur statut légal."

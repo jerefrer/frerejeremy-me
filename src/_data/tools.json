@@ -3,88 +3,36 @@
     "id": "tibetan-translator",
     "name": "Tibetan Translator",
     "url": "https://jerefrer.github.io/tibetan-translator/",
-    "icon": "/assets/images/tibetan-translator.png",
-    "screenshot": "/assets/images/screenshots/tibetan-translator.png",
     "description": {
-      "en": "The best Tibetan dictionaries in a pleasant interface for all platforms.",
-      "fr": "Les meilleurs dictionnaires tibétains dans une interface agréable pour toutes les plateformes."
+      "en": "The best dictionaries, one pleasant interface.",
+      "fr": "Les meilleurs dictionnaires, une seule interface agréable."
     }
   },
   {
     "id": "easy-tibetan-copy",
     "name": "Easy Tibetan Copy",
     "url": "https://buda-base.github.io/easy-tibetan-copy/",
-    "icon": "/assets/images/easy-tibetan-copy.png",
-    "screenshot": "/assets/images/screenshots/easy-tibetan-copy.png",
     "description": {
-      "en": "Make Tibetan in PDFs, Word and RTF copy, search and paste as correct Unicode — all in your browser.",
-      "fr": "Rendre le tibétain des PDF, Word et RTF copiable, cherchable et collable en Unicode correct — directement dans le navigateur."
-    }
-  },
-  {
-    "id": "pecha-printer",
-    "name": "Pecha Printer",
-    "url": "https://pecha-printer.frerejeremy.me",
-    "icon": "/assets/images/pecha-printer.png",
-    "screenshot": "/assets/images/screenshots/pecha-printer.png",
-    "description": {
-      "en": "Print several pecha pages per A4/A3 sheet, ordered for easy stacking.",
-      "fr": "Imprimer plusieurs pages de péchas par page A4/A3, ordonnées pour un empilement facile."
+      "en": "Copy and search Tibetan in any PDF.",
+      "fr": "Copiez et cherchez le tibétain dans n'importe quel PDF."
     }
   },
   {
     "id": "tibetan-to-phonetics",
     "name": "Tibetan to Phonetics",
     "url": "https://jerefrer.github.io/tibetan-to-phonetics-app/",
-    "icon": "/assets/images/tibetan-to-phonetics.jpg",
-    "screenshot": "/assets/images/screenshots/tibetan-to-phonetics.png",
     "description": {
-      "en": "Convert Tibetan script to phonetics.",
-      "fr": "Convertir du tibétain en phonétique."
+      "en": "Script to readable phonetics.",
+      "fr": "De l'écriture tibétaine à une phonétique lisible."
     }
   },
   {
-    "id": "kvp-phonserv",
-    "name": "Tibetan to Phonetics for KVP",
-    "url": "https://phonetics.frerejeremy.me/",
-    "icon": "/assets/images/khyentse-vision.png",
-    "screenshot": "/assets/images/screenshots/kvp-phonserv.png",
+    "id": "pecha-printer",
+    "name": "Pecha Printer",
+    "url": "https://pecha-printer.frerejeremy.me",
     "description": {
-      "en": "Helping the Khyentse Vision Project with their own Tibetan to phonetics converter.",
-      "fr": "J'aide le Khyentse Vision Project avec leur propre convertisseur du tibétain en phonétique."
-    }
-  },
-  {
-    "id": "tibetan-mantra-to-iast-and-phonetics",
-    "name": "Tibetan Mantra to IAST and Phonetics",
-    "url": "https://jerefrer.github.io/tibetan-mantra-to-iast-and-phonetics-app/",
-    "icon": "/assets/images/tibetan-mantra-to-iast-and-phonetics.png",
-    "screenshot": "/assets/images/screenshots/tibetan-mantra-to-iast-and-phonetics.png",
-    "description": {
-      "en": "Convert Tibetan mantras to IAST and phonetics.",
-      "fr": "Convertir les mantras tibétains en IAST et en phonétique."
-    }
-  },
-  {
-    "id": "indesign-scripts",
-    "name": "InDesign Scripts",
-    "url": "https://github.com/jerefrer/indesign-scripts-for-tibetan-booklets-and-pechas",
-    "icon": "/assets/images/indesign-scripts.png",
-    "screenshot": "/assets/images/screenshots/indesign-scripts.png",
-    "description": {
-      "en": "Dozens of InDesign scripts for working with Tibetan booklets and pechas.",
-      "fr": "Plusieurs dizaines de scripts InDesign pour travailler avec les livrets et les péchas en tibétain."
-    }
-  },
-  {
-    "id": "word-scripts",
-    "name": "Word Scripts",
-    "url": "https://github.com/jerefrer/word-scripts",
-    "icon": "/assets/images/word-scripts.png",
-    "screenshot": "/assets/images/screenshots/word-scripts.png",
-    "description": {
-      "en": "Dozens of Word scripts for working with Tibetan booklets and pechas.",
-      "fr": "Plusieurs dizaines de scripts Word pour travailler avec les livrets et les péchas en tibétain."
+      "en": "Several pages per sheet, ready to stack.",
+      "fr": "Plusieurs pages par feuille, prêtes à empiler."
     }
   }
 ]
