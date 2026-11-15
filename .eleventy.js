@@ -1,5 +1,6 @@
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("assets");
+  eleventyConfig.addPassthroughCopy({ "src/robots.txt": "robots.txt", "src/sitemap.xml": "sitemap.xml" });
 
   return {
     passthroughFileCopy: true,
