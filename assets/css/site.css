@@ -233,3 +233,10 @@ h2.h2-xl { font-size: clamp(32px, 5vw, 44px); }
 @media (max-width: 440px) {
   .cards { grid-template-columns: minmax(0, 1fr); }
 }
+
+/* ---- Thank-you page ---- */
+.thanks { max-width: 680px; display: flex; flex-direction: column; align-items: center; gap: 18px; text-align: center; }
+.thanks-heart { width: 72px; height: 72px; border-radius: 50%; background: var(--burgundy); color: var(--white); display: flex; align-items: center; justify-content: center; }
+.thanks-heart .btn-icon { width: 34px; height: 34px; margin: 0; vertical-align: 0; }
+.thanks-signature { font-style: italic; color: var(--muted); }
+.thanks .actions { justify-content: center; }

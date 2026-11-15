@@ -1,0 +1,50 @@
+---
+permalink: /thank-you/index.html
+---
+{% from "macros.njk" import t, ext, heart %}<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title data-fr="{{ texts.thanks.title.fr }} · Frère Jérémy">{{ texts.thanks.title.en }} · Frère Jérémy</title>
+    <meta name="description" content="{{ texts.thanks.description.en }}" data-fr="{{ texts.thanks.description.fr }}"/>
+    {#- Only reached after a donation: keep it out of search results. #}
+    <meta name="robots" content="noindex"/>
+    <meta name="theme-color" content="#ffffff"/>
+    <meta name="color-scheme" content="light"/>
+{% include "head-assets.njk" %}
+  </head>
+  <body>
+    <a class="skip" href="#main"><span lang="en">Skip to content</span><span lang="fr">Aller au contenu</span></a>
+
+    <header class="site-header wrap">
+      <a class="brand" href="/">
+        <img src="/assets/favicon/android-chrome-192x192.png" alt="" width="44" height="44"/>
+        <span>Frère Jérémy</span>
+      </a>
+      <div class="header-end">
+        <div class="lang" role="group" aria-label="Language / Langue">
+          <button type="button" data-set-lang="en" lang="en" aria-label="English">EN</button>
+          <span aria-hidden="true">·</span>
+          <button type="button" data-set-lang="fr" lang="fr" aria-label="Français">FR</button>
+        </div>
+      </div>
+    </header>
+
+    <main id="main" class="section wrap thanks">
+      <div class="thanks-heart" aria-hidden="true">{{ heart() }}</div>
+      <h1 class="h2-xl">{{ t(texts.thanks.heading) }}</h1>
+      <p class="body-lg">{{ t(texts.thanks.text) }}</p>
+      <p class="supporters">{{ t(texts.thanks.receipt) }}</p>
+      <p class="thanks-signature">{{ t(texts.thanks.signature) }}<br/>Frère Jérémy 🙏</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="{{ texts.tools.toolboxUrl }}" target="_blank" rel="noopener">{{ t(texts.tools.toolbox) }} {{ ext() }}</a>
+        <a class="btn btn-ghost" href="/">{{ t(texts.thanks.back) }}</a>
+      </div>
+    </main>
+
+{% include "footer.njk" %}
+
+    <script src="/assets/js/site.js" defer></script>
+  </body>
+</html>
