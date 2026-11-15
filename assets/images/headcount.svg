@@ -1,5 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <rect width="32" height="32" rx="7" fill="#0B5CFF"/>
-  <circle cx="16" cy="16" r="8" fill="#FFFFFF" fill-opacity="0.2"/>
-  <circle cx="16" cy="16" r="4" fill="#FFFFFF" fill-opacity="0.95"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3d72f2"/><stop offset="1" stop-color="#1f4fd0"/></linearGradient></defs><rect width="512" height="512" rx="116" fill="url(#g)"/><g fill="none" stroke="#fff" stroke-linecap="round"><circle cx="256" cy="256" r="150" stroke-width="22"/><ellipse cx="256" cy="256" rx="66" ry="150" stroke-width="15"/><line x1="106" y1="256" x2="406" y2="256" stroke-width="15"/><line x1="124" y1="186" x2="388" y2="186" stroke-width="13"/><line x1="124" y1="326" x2="388" y2="326" stroke-width="13"/></g><g fill="#ffd166" stroke="#2556dc" stroke-width="12"><circle cx="190" cy="196" r="30"/><circle cx="330" cy="232" r="30"/><circle cx="240" cy="338" r="30"/></g></svg>
