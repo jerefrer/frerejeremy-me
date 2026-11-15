@@ -114,6 +114,7 @@ html:lang(fr) .lang [data-set-lang="fr"] { color: var(--ink); cursor: default; t
 .btn-ghost { color: var(--ink); border-color: var(--line-strong); background: var(--white); }
 .btn-ghost:hover { color: var(--ink); border-color: var(--burgundy); }
 .btn-block { display: block; width: 100%; padding: 18px 24px; border-radius: 16px; font-size: 17px; }
+.btn-icon { display: inline-block; vertical-align: -3px; margin-right: 10px; }
 .text-link { font-weight: 700; font-size: 17px; }
 .text-link.small { font-size: 14px; font-weight: 600; }
 .ext { vertical-align: -2px; margin-left: 2px; }

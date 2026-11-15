@@ -1,4 +1,4 @@
-{% from "macros.njk" import t, ext %}<!DOCTYPE html>
+{% from "macros.njk" import t, ext, heart, github %}<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8"/>
@@ -189,8 +189,8 @@
           <p class="supporters">{{ t(texts.supporters) }}</p>
         </div>
         <div class="support-actions">
-          <a class="btn btn-primary btn-block" href="{{ texts.support.giveUrl }}" target="_blank" rel="noopener">{{ t(texts.support.give) }}</a>
-          <a class="btn btn-ghost btn-block" href="https://github.com/sponsors/jerefrer" target="_blank" rel="noopener">{{ t(texts.support.github) }}</a>
+          <a class="btn btn-primary btn-block" href="{{ texts.support.giveUrl }}" target="_blank" rel="noopener">{{ heart() }}{{ t(texts.support.give) }}</a>
+          <a class="btn btn-ghost btn-block" href="https://github.com/sponsors/jerefrer" target="_blank" rel="noopener">{{ github() }}{{ t(texts.support.github) }}</a>
           <p class="paypal">{{ t(texts.support.paypal) }} <a href="https://paypal.me/frerejeremy108" target="_blank" rel="noopener">PayPal {{ ext() }}</a></p>
           <details class="write" id="contact">
             <summary>{{ t(texts.support.write) }}</summary>
