@@ -122,12 +122,15 @@ html:lang(fr) .lang [data-set-lang="fr"] { color: var(--ink); cursor: default; t
 .ext { vertical-align: -2px; margin-left: 2px; }
 
 /* ---- Typography ---- */
-h1, h2 { font-family: var(--serif); color: var(--ink); }
+h1, h2 { font-family: var(--serif); color: var(--ink); text-wrap: balance; }
+/* Short intros get even lines; other paragraphs just avoid a lone last word. */
+p { text-wrap: pretty; }
 h1 { font-weight: 700; font-size: clamp(40px, 7vw, 64px); line-height: 1.04; letter-spacing: -0.02em; }
 h2 { font-weight: 600; font-size: clamp(30px, 4.4vw, 40px); line-height: 1.1; }
 h2.h2-xl { font-size: clamp(32px, 5vw, 44px); }
 .lead { font-size: clamp(18px, 2.2vw, 21px); line-height: 1.55; color: var(--ink-soft); }
 .body-lg { font-size: 18px; line-height: 1.6; color: var(--ink-soft); }
+.lead, .body-lg { text-wrap: balance; }
 .muted { color: var(--muted); }
 .supporters { font-size: 15px; color: var(--muted); }
 .stack { display: flex; flex-direction: column; gap: 18px; }
