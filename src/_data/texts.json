@@ -83,6 +83,7 @@
       "en": "Developer? Sponsor on GitHub",
       "fr": "Développeur ? Soutenez-moi sur GitHub"
     },
+    "githubShort": { "en": "Developer? GitHub Sponsors", "fr": "Développeur ? GitHub Sponsors" },
     "paypal": { "en": "You can also use", "fr": "Vous pouvez aussi utiliser" },
     "write": { "en": "Prefer to write to me?", "fr": "Vous préférez m'écrire ?" }
   },
