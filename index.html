@@ -1,618 +1,288 @@
 <!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><style>@layer __jampack__{:where(img[jampack-sized]){max-width:100%;height:auto}}</style>
     
-    <title>Frère Jérémy</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title data-fr="Frère Jérémy — Outils open source pour le Dharma et les initiatives bienveillantes">Frère Jérémy — Open source tools for the Dharma and compassionate initiatives</title>
+    <meta name="description" content="Open source tools for Tibetan texts, free apps and websites for Dharma and compassionate initiatives, made by Frère Jérémy. Support this work." data-fr="Outils open source pour les textes tibétains, apps gratuites et sites pour le Dharma et les initiatives bienveillantes, par Frère Jérémy. Soutenez ce travail.">
+    <link rel="canonical" href="https://frerejeremy.me/">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="color-scheme" content="light">
+
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Frère Jérémy">
+    <meta property="og:title" content="Frère Jérémy — Open source tools for the Dharma and compassionate initiatives">
+    <meta property="og:description" content="Open source tools for Tibetan texts, free apps and websites for Dharma and compassionate initiatives, made by Frère Jérémy. Support this work.">
+    <meta property="og:url" content="https://frerejeremy.me/">
+    <meta property="og:image" content="https://frerejeremy.me/assets/images/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Frère Jérémy: open source tools for the Dharma and compassionate initiatives">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="fr_FR">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Frère Jérémy — Open source tools for the Dharma and compassionate initiatives">
+    <meta name="twitter:description" content="Open source tools for Tibetan texts, free apps and websites for Dharma and compassionate initiatives, made by Frère Jérémy. Support this work.">
+    <meta name="twitter:image" content="https://frerejeremy.me/assets/images/og-image.jpg">
+
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Frère Jérémy">
-    <meta property="og:description" content="Support my tech involvement in Dharma and compassionate activities">
-    <meta property="og:url" content="https://frerejeremy.me">
-    <meta property="og:image" content="https://frerejeremy.me/assets/favicon/android-chrome-512x512.png">
     <link rel="manifest" href="/assets/favicon/site.webmanifest">
-    <link rel="stylesheet" href="/assets/css/style.css">
+
+    <link rel="preload" href="/assets/fonts/literata-latin.woff2" as="font" type="font/woff2" crossorigin="">
+    <link rel="preload" href="/assets/fonts/figtree-latin.woff2" as="font" type="font/woff2" crossorigin="">
+    <link rel="stylesheet" href="/assets/css/site.css">
+
+    <script>(function(){var e="en";try{var n=localStorage.getItem("preferredLanguage");n==="en"||n==="fr"?e=n:(navigator.language||"").slice(0,2)==="fr"&&(e="fr")}catch{}document.documentElement.lang=e})();
+</script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Jérémy Frère",
+      "alternateName": "Frère Jérémy",
+      "url": "https://frerejeremy.me/",
+      "image": "https://frerejeremy.me/assets/favicon/android-chrome-512x512.png",
+      "description": "Open source tools for Tibetan texts, free apps and websites for Dharma and compassionate initiatives, made by Frère Jérémy. Support this work.",
+      "sameAs": ["https://github.com/jerefrer"]
+    }
+    </script>
     <!-- Matomo -->
-    <script>var _paq=window._paq=window._paq||[];_paq.push(["trackPageView"]),_paq.push(["enableLinkTracking"]),function(){var a="//analytics.frerejeremy.me/";_paq.push(["setTrackerUrl",a+"matomo.php"]),_paq.push(["setSiteId","1"]);var r=document,e=r.createElement("script"),t=r.getElementsByTagName("script")[0];e.async=!0,e.src=a+"matomo.js",t.parentNode.insertBefore(e,t)}();
+    <script>var _paq=window._paq=window._paq||[];_paq.push(["trackPageView"]),_paq.push(["enableLinkTracking"]),(function(){var a="//analytics.frerejeremy.me/";_paq.push(["setTrackerUrl",a+"matomo.php"]),_paq.push(["setSiteId","1"]);var r=document,e=r.createElement("script"),t=r.getElementsByTagName("script")[0];e.async=!0,e.src=a+"matomo.js",t.parentNode.insertBefore(e,t)})();
 </script>
   </head>
-  <body>
-    <!-- Language Toggle -->
-    <button class="lang-toggle" id="langToggle" aria-label="Switch language">
-      <span class="i18n" data-lang="en">EN</span>
-      <span class="i18n" data-lang="fr">FR</span>
-    </button>
-    <!-- Hero Section -->
-    <header class="hero">
-      <div class="hero-content">
-        <div class="hero-text">
-          <h1>
-            <span class="i18n" data-lang="en">Hi, I'm Frère Jérémy</span>
-            <span class="i18n" data-lang="fr">Hey, ici Frère Jérémy</span>
-          </h1>
-          <p class="intro">
-            <span class="i18n" data-lang="en">I use my tech skills to serve the Dharma and support compassionate initiatives. My wish is that financial concerns never get in the way of work that truly matters.</span>
-            <span class="i18n" data-lang="fr">Je mets mes compétences techniques au service du Dharma et d'initiatives bienveillantes. Mon souhait est que les questions d'argent ne fassent jamais obstacle à des projets qui comptent vraiment.</span>
-          </p>
-          <p class="hope">
-            <span class="i18n" data-lang="en">With the support of people like you, I can focus fully on these projects.</span>
-            <span class="i18n" data-lang="fr">Grâce au soutien de personnes comme vous, je peux me consacrer pleinement à ces travaux.</span>
-          </p>
-          <div class="hero-actions">
-            <a href="#sponsor" class="btn btn-primary">
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3
-                19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"></path>
-              </svg>
-              <span class="i18n" data-lang="en">Sponsor me</span>
-              <span class="i18n" data-lang="fr">Me soutenir</span>
-            </a>
-            <a href="#tools" class="btn btn-secondary">
-              <span class="i18n" data-lang="en">Tibetan tools</span>
-              <span class="i18n" data-lang="fr">Outils tibétains</span>
-            </a>
-            <a href="#apps" class="btn btn-secondary">
-              <span class="i18n" data-lang="en">Open source apps</span>
-              <span class="i18n" data-lang="fr">Apps open source</span>
-            </a>
-            <a href="#websites" class="btn btn-secondary">
-              <span class="i18n" data-lang="en">Collaborations</span>
-              <span class="i18n" data-lang="fr">Collaborations</span>
-            </a>
-          </div>
-        </div>
-        <div class="hero-image">
-          <img src="/assets/images/jeremy.webp" alt="Frère Jérémy" fetchpriority="high" decoding="async" width="457" height="1064" jampack-sized="true">
+  <body id="top">
+    <a class="skip" href="#main"><span lang="en">Skip to content</span><span lang="fr">Aller au contenu</span></a>
+
+    <header class="wrap site-header">
+      <a class="brand" href="#top">
+        <img src="/assets/favicon/android-chrome-192x192.webp" alt="" width="44" height="44" fetchpriority="high" decoding="async">
+        <span>Frère Jérémy</span>
+      </a>
+      <div class="header-end">
+        <nav class="nav" aria-label="Main">
+          <a href="#tools"><span lang="en">Tibetan tools</span><span lang="fr">Outils tibétains</span></a>
+          <a href="#apps"><span lang="en">Apps</span><span lang="fr">Apps</span></a>
+          <a href="#work"><span lang="en">Collaborations</span><span lang="fr">Collaborations</span></a>
+          <a href="#support" class="nav-support"><span lang="en">Support</span><span lang="fr">Soutenir</span></a>
+        </nav>
+        <div class="lang" role="group" aria-label="Language / Langue">
+          <button type="button" data-set-lang="en" lang="en" aria-label="English">EN</button>
+          <span aria-hidden="true">·</span>
+          <button type="button" data-set-lang="fr" lang="fr" aria-label="Français">FR</button>
         </div>
       </div>
     </header>
-    <!-- Sponsor CTA Banner -->
-    <section class="sponsor-banner" id="sponsor">
-      <div class="container">
-        <div class="sponsor-content">
-          <div class="support-text">
-            <h2>
-              <span class="i18n" data-lang="en">Support this work</span>
-              <span class="i18n" data-lang="fr">Soutenir ce travail</span>
-            </h2>
-            <p>
-              <span class="i18n" data-lang="en">If you'd like to help me help others, your support would mean a lot!</span>
-              <span class="i18n" data-lang="fr">Si vous souhaitez m'aider à aider les autres, votre soutien est le bienvenu !</span>
-            </p>
-            <p class="small">
-              <span class="emoji-icon">🌱</span>
-              <span class="i18n" data-lang="en">Regular contributions, even small, really do make a difference.</span>
-              <span class="i18n" data-lang="fr">Une contribution régulière, même modeste, fait vraiment la différence.</span>
-            </p>
-            <p class="direct-contact">
-              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" class="contact-icon">
-                <path d="M20.067 8.478c.492.88.556 2.014.3 3.327-.74 3.806-3.276 5.12-6.514 5.12h-.5a.805.805 0 0 0-.794.68l-.04.22-.63
-                  3.993-.032.17a.804.804 0 0 1-.794.679H7.72a.483.483 0 0 1-.477-.558L7.418 21l1.264-8.025.03-.177a.806.806 0 0 1
-                  .793-.679h2.353c3.663 0 6.526-1.49 7.361-5.797a4.543 4.543 0 0 0
-                  .05-.426c.178.132.352.279.52.447.287.285.536.618.748.998z"></path><path d="M18.332 6.918c-.116-.037-.238-.069-.364-.096a6.175 6.175 0 0 0-.75-.116 13.407 13.407 0 0 0-1.57-.087H9.468a.806.806 0
-                  0 0-.794.679l-1.264 8.025-.037.23a.805.805 0 0 1 .794-.68h1.65c3.238 0 5.774-1.314
-                  6.514-5.12.256-1.313.192-2.447-.3-3.327a2.762 2.762 0 0 0-.7-.998 4.97 4.97 0 0 0-.52-.447l.521-.063z"></path><path d="M7.674 6.497a.806.806 0 0 1 .794-.679h6.18c.563 0 1.093.03
-                1.57.087.25.03.5.065.75.116.126.027.248.059.364.096.173.06.34.13.5.21.18-.96.03-1.614-.48-2.324C16.63 3.08 15.06 2.5
-                12.972 2.5H5.818c-.48 0-.888.347-.963.817L2.5 19.682c-.06.376.232.718.618.718h4.502l1.131-7.178 1.264-8.025-.341 1.3z"></path>
-              </svg>
-              <span>
-                <span class="i18n" data-lang="en">You can also support me via
-                </span>
-                <span class="i18n" data-lang="fr">Vous pouvez aussi me soutenir via
-                </span>
-                <a href="https://paypal.me/frerejeremy108" target="_blank" rel="noopener" id="paypal-link">
-                  PayPal
-                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line>
-                  </svg>
-                </a>
-              </span>
-            </p>
-            <p class="direct-contact">
-              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="contact-icon">
-                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                <polyline points="22,6 12,13 2,6"></polyline>
-              </svg>
-              <span class="i18n" data-lang="en">Prefer to get in touch?
-              </span>
-              <span class="i18n" data-lang="fr">Vous préférez me contacter ?
-              </span>
-              <a href="#contact">
-                <span class="i18n" data-lang="en">Write me a message</span>
-                <span class="i18n" data-lang="fr">Écrivez-moi un message</span>
+
+    <main id="main">
+      <section class="hero">
+        <div class="wrap hero-inner">
+          <div class="hero-text">
+            <h1><span lang="en">Hi, I'm Frère Jérémy.</span><span lang="fr">Hey, ici Frère Jérémy.</span></h1>
+            <p class="lead"><span lang="en">I use my tech skills to serve the Dharma and support compassionate initiatives. My wish is that financial concerns never get in the way of work that truly matters.</span><span lang="fr">Je mets mes compétences techniques au service du Dharma et d'initiatives bienveillantes. Mon souhait est que les questions d'argent ne fassent jamais obstacle à des projets qui comptent vraiment.</span></p>
+            <div class="actions">
+              <a class="btn btn-primary" href="#support"><span lang="en">Support this work</span><span lang="fr">Soutenir ce travail</span></a>
+              <a class="btn btn-ghost" href="#tools"><span lang="en">See what I make</span><span lang="fr">Voir ce que je crée</span></a>
+            </div>
+            <p class="supporters"><span lang="en">8 people support this work every month. Thank you! 🙏</span><span lang="fr">8 personnes soutiennent ce travail chaque mois. Merci ! 🙏</span></p>
+          </div>
+        </div>
+        <picture class="hero-photo">
+          <source srcset="/assets/images/jeremy.webp" type="image/webp">
+          <img src="/assets/images/jeremy.jpg" width="457" height="1064" alt="Half of Frère Jérémy's face, smiling, with red glasses" fetchpriority="high" decoding="async">
+        </picture>
+      </section>
+
+      <section id="tools" class="band">
+        <div class="wrap split">
+          <div class="stack">
+            <h2><span lang="en">Tools for working with Tibetan texts</span><span lang="fr">Outils utiles pour les textes en tibétain</span></h2>
+            <p class="body-lg"><span lang="en">Dictionaries, phonetics, mantras, pechas, copyable PDFs: I build open source tools for translators and the Tibetan Buddhist community. They now live, alongside other people's tools, in one place.</span><span lang="fr">Dictionnaires, phonétique, mantras, péchas, PDF copiables : je développe des outils open source pour les traducteurs et la communauté du bouddhisme tibétain. Ils sont désormais réunis, avec les outils d'autres auteurs, au même endroit.</span></p>
+            <a class="text-link" href="https://tibetantoolbox.org/" target="_blank" rel="noopener"><span lang="en">Open the Tibetan Toolbox</span><span lang="fr">Ouvrir la Tibetan Toolbox</span> <svg class="ext" aria-hidden="true" focusable="false" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></a>
+          </div>
+          <ul class="cards">
+            <li>
+              <a class="card" href="https://jerefrer.github.io/tibetan-translator/" target="_blank" rel="noopener">
+                <strong>Tibetan Translator</strong>
+                <span><span lang="en">The best dictionaries, one pleasant interface.</span><span lang="fr">Les meilleurs dictionnaires, une seule interface agréable.</span></span>
               </a>
-            </p>
-          </div>
-          <div class="sponsor-widget">
-            <script src="https://donorbox.org/widget.js" paypalexpress="false"></script>
-            <iframe src="https://donorbox.org/embed/support-jeremy?default_interval=m" name="donorbox" allowpaymentrequest="allowpaymentrequest" seamless="seamless" frameborder="0" scrolling="no" height="900px" width="100%" style="min-width:310px;max-width:425px" allow="payment"></iframe>
-          </div>
+            </li>
+            <li>
+              <a class="card" href="https://buda-base.github.io/easy-tibetan-copy/" target="_blank" rel="noopener">
+                <strong>Easy Tibetan Copy</strong>
+                <span><span lang="en">Copy and search Tibetan in any PDF.</span><span lang="fr">Copiez et cherchez le tibétain dans n'importe quel PDF.</span></span>
+              </a>
+            </li>
+            <li>
+              <a class="card" href="https://jerefrer.github.io/tibetan-to-phonetics-app/" target="_blank" rel="noopener">
+                <strong>Tibetan to Phonetics</strong>
+                <span><span lang="en">Script to readable phonetics.</span><span lang="fr">De l'écriture tibétaine à une phonétique lisible.</span></span>
+              </a>
+            </li>
+            <li>
+              <a class="card" href="https://pecha-printer.frerejeremy.me" target="_blank" rel="noopener">
+                <strong>Pecha Printer</strong>
+                <span><span lang="en">Several pages per sheet, ready to stack.</span><span lang="fr">Plusieurs pages par feuille, prêtes à empiler.</span></span>
+              </a>
+            </li>
+          </ul>
         </div>
-      </div>
-    </section>
-    <!-- Tools Section -->
-    <section class="projects" id="tools">
-      <div class="container">
-        <header class="section-header">
-          <h2>
-            <span class="i18n" data-lang="en">Tools for working with Tibetan texts</span>
-            <span class="i18n" data-lang="fr">Outils utiles pour les textes en tibétain</span>
-          </h2>
-          <p>
-            <span class="i18n" data-lang="en">I build open source tools to help with translation, editing prayer books, and other needs of the Tibetan Buddhist community.</span>
-            <span class="i18n" data-lang="fr">Je développe des outils open source pour aider à la traduction, à l'édition de livres de prières, et d'autres besoins de la communauté du bouddhisme tibétain.</span>
-          </p>
-        </header>
-        <div class="projects-grid"><a href="https://jerefrer.github.io/tibetan-translator/" target="_blank" rel="noopener" class="project-card">
-              <div class="project-screenshot">
-                <img src="/assets/images/screenshots/tibetan-translator.webp" alt="Tibetan Translator screenshot" fetchpriority="high" decoding="async" width="1440" height="900" jampack-sized="true">
-              </div>
-              <div class="project-info">
-                <div class="project-header">
-                  <img src="/assets/images/tibetan-translator.webp" alt="" class="project-icon" fetchpriority="high" decoding="async" width="512" height="512" jampack-sized="true">
-                  <h3>Tibetan Translator</h3>
-                </div>
-                <p class="project-description">
-                  <span class="i18n" data-lang="en">The best Tibetan dictionaries in a pleasant interface for all platforms.</span>
-                  <span class="i18n" data-lang="fr">Les meilleurs dictionnaires tibétains dans une interface agréable pour toutes les plateformes.</span>
-                </p>
-                <span class="project-link">
-                  <span class="i18n" data-lang="en">Visit</span>
-                  <span class="i18n" data-lang="fr">Visiter</span>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line>
-                  </svg>
-                </span>
-              </div>
-            </a><a href="https://buda-base.github.io/easy-tibetan-copy/" target="_blank" rel="noopener" class="project-card">
-              <div class="project-screenshot">
-                <img src="/assets/images/screenshots/easy-tibetan-copy.webp" alt="Easy Tibetan Copy screenshot" loading="lazy" decoding="async" width="1480" height="930" jampack-sized="true" srcset="/assets/images/screenshots/easy-tibetan-copy.webp 1480w, /assets/images/screenshots/easy-tibetan-copy@1180w.webp 1180w, /assets/images/screenshots/easy-tibetan-copy@880w.webp 880w" sizes="100vw">
-              </div>
-              <div class="project-info">
-                <div class="project-header">
-                  <img src="/assets/images/easy-tibetan-copy.webp" alt="" class="project-icon" loading="lazy" decoding="async" width="600" height="600" jampack-sized="true">
-                  <h3>Easy Tibetan Copy</h3>
-                </div>
-                <p class="project-description">
-                  <span class="i18n" data-lang="en">Make Tibetan in PDFs, Word and RTF copy, search and paste as correct Unicode — all in your browser.</span>
-                  <span class="i18n" data-lang="fr">Rendre le tibétain des PDF, Word et RTF copiable, cherchable et collable en Unicode correct — directement dans le navigateur.</span>
-                </p>
-                <span class="project-link">
-                  <span class="i18n" data-lang="en">Visit</span>
-                  <span class="i18n" data-lang="fr">Visiter</span>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line>
-                  </svg>
-                </span>
-              </div>
-            </a><a href="https://pecha-printer.frerejeremy.me" target="_blank" rel="noopener" class="project-card">
-              <div class="project-screenshot">
-                <img src="/assets/images/screenshots/pecha-printer.webp" alt="Pecha Printer screenshot" loading="lazy" decoding="async" width="2416" height="1534" jampack-sized="true" srcset="/assets/images/screenshots/pecha-printer.webp 2416w, /assets/images/screenshots/pecha-printer@916w.webp 916w" sizes="100vw">
-              </div>
-              <div class="project-info">
-                <div class="project-header">
-                  <img src="/assets/images/pecha-printer.webp" alt="" class="project-icon" loading="lazy" decoding="async" width="512" height="512" jampack-sized="true">
-                  <h3>Pecha Printer</h3>
-                </div>
-                <p class="project-description">
-                  <span class="i18n" data-lang="en">Print several pecha pages per A4/A3 sheet, ordered for easy stacking.</span>
-                  <span class="i18n" data-lang="fr">Imprimer plusieurs pages de péchas par page A4/A3, ordonnées pour un empilement facile.</span>
-                </p>
-                <span class="project-link">
-                  <span class="i18n" data-lang="en">Visit</span>
-                  <span class="i18n" data-lang="fr">Visiter</span>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line>
-                  </svg>
-                </span>
-              </div>
-            </a><a href="https://jerefrer.github.io/tibetan-to-phonetics-app/" target="_blank" rel="noopener" class="project-card">
-              <div class="project-screenshot">
-                <img src="/assets/images/screenshots/tibetan-to-phonetics.webp" alt="Tibetan to Phonetics screenshot" loading="lazy" decoding="async" width="2662" height="1676" jampack-sized="true" srcset="/assets/images/screenshots/tibetan-to-phonetics.webp 2662w, /assets/images/screenshots/tibetan-to-phonetics@1462w.webp 1462w, /assets/images/screenshots/tibetan-to-phonetics@1162w.webp 1162w, /assets/images/screenshots/tibetan-to-phonetics@862w.webp 862w" sizes="100vw">
-              </div>
-              <div class="project-info">
-                <div class="project-header">
-                  <img src="/assets/images/tibetan-to-phonetics.webp" alt="" class="project-icon" loading="lazy" decoding="async" width="449" height="449" jampack-sized="true">
-                  <h3>Tibetan to Phonetics</h3>
-                </div>
-                <p class="project-description">
-                  <span class="i18n" data-lang="en">Convert Tibetan script to phonetics.</span>
-                  <span class="i18n" data-lang="fr">Convertir du tibétain en phonétique.</span>
-                </p>
-                <span class="project-link">
-                  <span class="i18n" data-lang="en">Visit</span>
-                  <span class="i18n" data-lang="fr">Visiter</span>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line>
-                  </svg>
-                </span>
-              </div>
-            </a><a href="https://phonetics.frerejeremy.me/" target="_blank" rel="noopener" class="project-card">
-              <div class="project-screenshot">
-                <img src="/assets/images/screenshots/kvp-phonserv.webp" alt="Tibetan to Phonetics for KVP screenshot" loading="lazy" decoding="async" width="2060" height="1168" jampack-sized="true" srcset="/assets/images/screenshots/kvp-phonserv.webp 2060w, /assets/images/screenshots/kvp-phonserv@860w.webp 860w" sizes="100vw">
-              </div>
-              <div class="project-info">
-                <div class="project-header">
-                  <img src="/assets/images/khyentse-vision.webp" alt="" class="project-icon" loading="lazy" decoding="async" width="548" height="548" jampack-sized="true">
-                  <h3>Tibetan to Phonetics for KVP</h3>
-                </div>
-                <p class="project-description">
-                  <span class="i18n" data-lang="en">Helping the Khyentse Vision Project with their own Tibetan to phonetics converter.</span>
-                  <span class="i18n" data-lang="fr">J'aide le Khyentse Vision Project avec leur propre convertisseur du tibétain en phonétique.</span>
-                </p>
-                <span class="project-link">
-                  <span class="i18n" data-lang="en">Visit</span>
-                  <span class="i18n" data-lang="fr">Visiter</span>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line>
-                  </svg>
-                </span>
-              </div>
-            </a><a href="https://jerefrer.github.io/tibetan-mantra-to-iast-and-phonetics-app/" target="_blank" rel="noopener" class="project-card">
-              <div class="project-screenshot">
-                <img src="/assets/images/screenshots/tibetan-mantra-to-iast-and-phonetics.webp" alt="Tibetan Mantra to IAST and Phonetics screenshot" loading="lazy" decoding="async" width="2042" height="1060" jampack-sized="true" srcset="/assets/images/screenshots/tibetan-mantra-to-iast-and-phonetics.webp 2042w, /assets/images/screenshots/tibetan-mantra-to-iast-and-phonetics@842w.webp 842w" sizes="100vw">
-              </div>
-              <div class="project-info">
-                <div class="project-header">
-                  <img src="/assets/images/tibetan-mantra-to-iast-and-phonetics.webp" alt="" class="project-icon" loading="lazy" decoding="async" width="600" height="600" jampack-sized="true">
-                  <h3>Tibetan Mantra to IAST and Phonetics</h3>
-                </div>
-                <p class="project-description">
-                  <span class="i18n" data-lang="en">Convert Tibetan mantras to IAST and phonetics.</span>
-                  <span class="i18n" data-lang="fr">Convertir les mantras tibétains en IAST et en phonétique.</span>
-                </p>
-                <span class="project-link">
-                  <span class="i18n" data-lang="en">Visit</span>
-                  <span class="i18n" data-lang="fr">Visiter</span>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line>
-                  </svg>
-                </span>
-              </div>
-            </a><a href="https://github.com/jerefrer/indesign-scripts-for-tibetan-booklets-and-pechas" target="_blank" rel="noopener" class="project-card">
-              <div class="project-screenshot">
-                <img src="/assets/images/screenshots/indesign-scripts.webp" alt="InDesign Scripts screenshot" loading="lazy" decoding="async" width="1680" height="1558" jampack-sized="true" srcset="/assets/images/screenshots/indesign-scripts.webp 1680w, /assets/images/screenshots/indesign-scripts@780w.webp 780w" sizes="100vw">
-              </div>
-              <div class="project-info">
-                <div class="project-header">
-                  <img src="/assets/images/indesign-scripts.webp" alt="" class="project-icon" loading="lazy" decoding="async" width="1024" height="999" jampack-sized="true">
-                  <h3>InDesign Scripts</h3>
-                </div>
-                <p class="project-description">
-                  <span class="i18n" data-lang="en">Dozens of InDesign scripts for working with Tibetan booklets and pechas.</span>
-                  <span class="i18n" data-lang="fr">Plusieurs dizaines de scripts InDesign pour travailler avec les livrets et les péchas en tibétain.</span>
-                </p>
-                <span class="project-link">
-                  <span class="i18n" data-lang="en">Visit</span>
-                  <span class="i18n" data-lang="fr">Visiter</span>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line>
-                  </svg>
-                </span>
-              </div>
-            </a><a href="https://github.com/jerefrer/word-scripts" target="_blank" rel="noopener" class="project-card">
-              <div class="project-screenshot">
-                <img src="/assets/images/screenshots/word-scripts.webp" alt="Word Scripts screenshot" loading="lazy" decoding="async" width="1790" height="1400" jampack-sized="true" srcset="/assets/images/screenshots/word-scripts.webp 1790w, /assets/images/screenshots/word-scripts@890w.webp 890w" sizes="100vw">
-              </div>
-              <div class="project-info">
-                <div class="project-header">
-                  <img src="/assets/images/word-scripts.webp" alt="" class="project-icon" loading="lazy" decoding="async" width="2352" height="2160" jampack-sized="true" srcset="/assets/images/word-scripts.webp 2352w, /assets/images/word-scripts@1152w.webp 1152w, /assets/images/word-scripts@852w.webp 852w" sizes="100vw">
-                  <h3>Word Scripts</h3>
-                </div>
-                <p class="project-description">
-                  <span class="i18n" data-lang="en">Dozens of Word scripts for working with Tibetan booklets and pechas.</span>
-                  <span class="i18n" data-lang="fr">Plusieurs dizaines de scripts Word pour travailler avec les livrets et les péchas en tibétain.</span>
-                </p>
-                <span class="project-link">
-                  <span class="i18n" data-lang="en">Visit</span>
-                  <span class="i18n" data-lang="fr">Visiter</span>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line>
-                  </svg>
-                </span>
-              </div>
-            </a><!-- GitHub link -->
-          <a href="https://github.com/jerefrer?tab=repositories" target="_blank" rel="noopener" class="project-card project-card-github">
-            <div class="project-screenshot github-screenshot">
-              <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207
-                11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729
-                1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304
-                3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381
-                1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138
-                3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807
-                5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386
-                0-6.627-5.373-12-12-12z"></path>
-              </svg>
-            </div>
-            <div class="project-info">
-              <div class="project-header">
-                <div class="project-icon github-icon-small">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207
-                    11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729
-                    1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304
-                    3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381
-                    1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138
-                    3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807
-                    5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386
-                    0-6.627-5.373-12-12-12z"></path>
-                  </svg>
-                </div>
-                <h3>And some more...</h3>
-              </div>
-              <p class="project-description">
-                <span class="i18n" data-lang="en">Find out on Github what I'm currently working on.</span>
-                <span class="i18n" data-lang="fr">Découvrez sur Github sur quoi je travaille en ce moment.</span>
-              </p>
-              <span class="project-link">
-                <span class="i18n" data-lang="en">Visit</span>
-                <span class="i18n" data-lang="fr">Visiter</span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line>
-                </svg>
+      </section>
+
+      <section id="apps" class="wrap section">
+        <div class="section-head">
+          <h2><span lang="en">Apps for everyone</span><span lang="fr">Des apps pour tous</span></h2>
+          <p class="body-lg"><span lang="en">Not everything I build is about Tibetan. These are free and open source.</span><span lang="fr">Tout ce que je crée n'est pas lié au tibétain. Ces apps sont gratuites et open source.</span></p>
+        </div>
+        <ul class="rows rows-apps">
+          <li>
+            <a class="row" href="https://jerefrer.github.io/mic-light/" target="_blank" rel="noopener">
+              <img class="app-icon" src="/assets/images/mic-light.webp" width="56" height="56" alt="" loading="lazy" decoding="async">
+              <span class="row-text">
+                <strong>Mic Light</strong>
+                <span><span lang="en">Know at a glance whether Zoom can hear you. macOS.</span><span lang="fr">Savoir d'un coup d'œil si Zoom vous entend. macOS.</span></span>
               </span>
-            </div>
-          </a>
+            </a>
+          </li>
+          <li>
+            <a class="row" href="https://jerefrer.github.io/headcount/" target="_blank" rel="noopener">
+              <img class="app-icon" src="/assets/images/headcount.svg" width="56" height="56" alt="" loading="lazy" decoding="async">
+              <span class="row-text">
+                <strong>Headcount</strong>
+                <span><span lang="en">Attendance reports for Zoom webinars, in your browser.</span><span lang="fr">Rapports de présence pour webinaires Zoom, dans votre navigateur.</span></span>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a class="row" href="https://jerefrer.github.io/imprint/" target="_blank" rel="noopener">
+              <img class="app-icon" src="/assets/images/imprint-icon.webp" width="56" height="56" alt="" loading="lazy" decoding="async">
+              <span class="row-text">
+                <strong>Imprint</strong>
+                <span><span lang="en">A macOS app to add captions to your TIFF photos from a spreadsheet (Excel or CSV).</span><span lang="fr">Une app macOS pour ajouter des légendes à vos photos TIFF depuis un tableur (Excel ou CSV).</span></span>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a class="row" href="https://jerefrer.github.io/captioneer/" target="_blank" rel="noopener">
+              <img class="app-icon" src="/assets/images/captioneer-icon.webp" width="56" height="56" alt="" loading="lazy" decoding="async">
+              <span class="row-text">
+                <strong>Captioneer</strong>
+                <span><span lang="en">A macOS app to extract the captions out of your photos into an Excel spreadsheet.</span><span lang="fr">Une app macOS pour extraire les légendes de vos photos vers un tableur Excel.</span></span>
+              </span>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section id="work" class="band band-grey">
+        <div class="wrap section">
+          <div class="section-head">
+            <h2><span lang="en">Working alongside</span><span lang="fr">Travailler aux côtés de</span></h2>
+            <p class="body-lg"><span lang="en">Other projects I've worked on or working on at the moment.</span><span lang="fr">Autres projets auxquels j'ai contribué ou sur lesquels je travaille actuellement.</span></p>
+          </div>
+          <ul class="rows rows-work">
+            <li class="work-item">
+              <img class="logo" src="/assets/images/logo-padmakara.webp" width="48" height="48" alt="" loading="lazy" decoding="async">
+              <div class="row-text">
+                <strong>Padmakara</strong>
+                <span><span lang="en">Translation committee for Tibetan Buddhist texts</span><span lang="fr">Comité de traduction de textes bouddhistes tibétains</span></span>
+                <span class="muted"><span lang="en">Website development, laying out prayer booklets and pechas, currently working on the website redesign, internal tools and a Padmakara mobile app.</span><span lang="fr">Développement du site web, mise en page de livrets de prières et de péchas, travail en cours sur la refonte du site web, des outils internes et une application mobile Padmakara.</span></span>
+                <a class="text-link small" href="https://www.padmakara.com/" target="_blank" rel="noopener"><span lang="en">Visit</span><span lang="fr">Visiter</span><span class="sr"> Padmakara</span> <svg class="ext" aria-hidden="true" focusable="false" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></a>
+              </div>
+            </li>
+            <li class="work-item">
+              <img class="logo" src="/assets/images/logo-khyentse-vision.webp" width="48" height="48" alt="" loading="lazy" decoding="async">
+              <div class="row-text">
+                <strong>Khyentse Vision Project (KVP)</strong>
+                <span><span lang="en">Translating the Works of Jamyang Khyentse Wangpo</span><span lang="fr">Traduction des œuvres de Jamyang Khyentse Wangpo</span></span>
+                <span class="muted"><span lang="en">Helping refine the phonetics generation tool used to produce the texts.</span><span lang="fr">Aide à l'amélioration du générateur de phonétique utilisé pour produire les textes.</span></span>
+                <a class="text-link small" href="https://www.khyentsevision.org/" target="_blank" rel="noopener"><span lang="en">Visit</span><span lang="fr">Visiter</span><span class="sr"> Khyentse Vision Project (KVP)</span> <svg class="ext" aria-hidden="true" focusable="false" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></a>
+              </div>
+            </li>
+            <li class="work-item">
+              <img class="logo" src="/assets/images/logo-bdrc.webp" width="48" height="48" alt="" loading="lazy" decoding="async">
+              <div class="row-text">
+                <strong>Buddhist Digital Resource Center (BDRC)</strong>
+                <span><span lang="en">Preserving Buddhist Literature for the World</span><span lang="fr">Preservation de la littérature bouddhiste pour le monde</span></span>
+                <span class="muted"><span lang="en">Helping with the Optical Text Recognition (OCR) application.</span><span lang="fr">Amélioration de l'application de reconnaissance de texte (OCR).</span></span>
+                <a class="text-link small" href="https://www.bdrc.io/" target="_blank" rel="noopener"><span lang="en">Visit</span><span lang="fr">Visiter</span><span class="sr"> Buddhist Digital Resource Center (BDRC)</span> <svg class="ext" aria-hidden="true" focusable="false" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></a>
+              </div>
+            </li>
+            <li class="work-item">
+              <img class="logo" src="/assets/images/logo-maison-24.webp" width="48" height="48" alt="" loading="lazy" decoding="async">
+              <div class="row-text">
+                <strong>La Maison 24</strong>
+                <span><span lang="en">Supporting and assisting people in precarious situations in Dordogne since 2013.</span><span lang="fr">Soutenir et accompagner les personnes en situation de précarité en Dordogne depuis 2013</span></span>
+                <span class="muted"><span lang="en">Website redesign, content updates, also helping with producing documents like flyers, annual reports and the like.</span><span lang="fr">Refonte du site web, mise à jour du contenu, aide à la production de documents comme des flyers, rapports annuels et autres.</span></span>
+                <a class="text-link small" href="https://www.lamaison24.net/" target="_blank" rel="noopener"><span lang="en">Visit</span><span lang="fr">Visiter</span><span class="sr"> La Maison 24</span> <svg class="ext" aria-hidden="true" focusable="false" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></a>
+              </div>
+            </li>
+            <li class="work-item">
+              <img class="logo" src="/assets/images/logo-matthieu-ricard.webp" width="48" height="48" alt="" loading="lazy" decoding="async">
+              <div class="row-text">
+                <strong>MatthieuRicard.org</strong>
+                <span><span lang="en">The official website of Matthieu Ricard.</span><span lang="fr">Le site officiel de Matthieu Ricard.</span></span>
+                <span class="muted"><span lang="en">Updating content.</span><span lang="fr">Mise à jour du contenu.</span></span>
+                <a class="text-link small" href="https://www.matthieuricard.org/" target="_blank" rel="noopener"><span lang="en">Visit</span><span lang="fr">Visiter</span><span class="sr"> MatthieuRicard.org</span> <svg class="ext" aria-hidden="true" focusable="false" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></a>
+              </div>
+            </li>
+            <li class="work-item">
+              <img class="logo" src="/assets/images/logo-100pour1.webp" width="48" height="48" alt="" loading="lazy" decoding="async">
+              <div class="row-text">
+                <strong>100 pour 1 Périgord</strong>
+                <span><span lang="en">Providing housing to migrants, regardless of their legal status.</span><span lang="fr">Fournir un logement aux migrants, indépendamment de leur statut légal.</span></span>
+                <span class="muted"><span lang="en">Built the whole website on Wix.</span><span lang="fr">Création complète sur Wix.</span></span>
+                <a class="text-link small" href="https://www.100pour1perigord.org/" target="_blank" rel="noopener"><span lang="en">Visit</span><span lang="fr">Visiter</span><span class="sr"> 100 pour 1 Périgord</span> <svg class="ext" aria-hidden="true" focusable="false" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></a>
+              </div>
+            </li>
+          </ul>
         </div>
-      </div>
-    </section>
-    <!-- Open Source Apps Section -->
-    <section class="projects projects-alt" id="apps">
-      <div class="container">
-        <header class="section-header">
-          <h2>
-            <span class="i18n" data-lang="en">Other open source tools</span>
-            <span class="i18n" data-lang="fr">Autres outils open source</span>
-          </h2>
-          <p>
-            <span class="i18n" data-lang="en">Not everything I build is about Tibetan. Here are some other open source apps I make for anyone to use.</span>
-            <span class="i18n" data-lang="fr">Tout ce que je crée n'est pas lié au tibétain. Voici d'autres applications open source que je développe, utiles à tous.</span>
-          </p>
-        </header>
-        <div class="projects-grid"><a href="https://jerefrer.github.io/imprint/" target="_blank" rel="noopener" class="project-card">
-              <div class="project-screenshot">
-                <img src="/assets/images/screenshots/imprint.webp" alt="Imprint screenshot" loading="lazy" decoding="async" width="2022" height="1350" jampack-sized="true" srcset="/assets/images/screenshots/imprint.webp 2022w, /assets/images/screenshots/imprint@1122w.webp 1122w, /assets/images/screenshots/imprint@822w.webp 822w" sizes="100vw">
+      </section>
+
+      <section id="support" class="wrap section support">
+        <div class="stack support-text">
+          <h2 class="h2-xl"><span lang="en">If you'd like to help me help others</span><span lang="fr">Si vous souhaitez m'aider à aider les autres</span></h2>
+          <p class="body-lg"><span lang="en">Everything here is free. Regular contributions, even small, are what let me keep building it.</span><span lang="fr">Tout ce que vous trouvez ici est gratuit. Les contributions régulières, même modestes, sont ce qui me permet de continuer à le construire.</span></p>
+          <p class="supporters"><span lang="en">8 people support this work every month. Thank you! 🙏</span><span lang="fr">8 personnes soutiennent ce travail chaque mois. Merci ! 🙏</span></p>
+        </div>
+        <div class="support-actions">
+          <a class="btn btn-primary btn-block" href="https://donorbox.org/support-jeremy?default_interval=m" target="_blank" rel="noopener"><span lang="en">Give monthly or once — card or PayPal</span><span lang="fr">Donner chaque mois ou une fois — carte ou PayPal</span></a>
+          <a class="btn btn-block btn-ghost" href="https://github.com/sponsors/jerefrer" target="_blank" rel="noopener"><span lang="en">Developer? Sponsor on GitHub</span><span lang="fr">Développeur ? Soutenez-moi sur GitHub</span></a>
+          <p class="paypal"><span lang="en">You can also use</span><span lang="fr">Vous pouvez aussi utiliser</span> <a href="https://paypal.me/frerejeremy108" target="_blank" rel="noopener">PayPal <svg class="ext" aria-hidden="true" focusable="false" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></a></p>
+          <details class="write" id="contact">
+            <summary><span lang="en">Prefer to write to me?</span><span lang="fr">Vous préférez m'écrire ?</span></summary>
+            <form method="POST" action="https://formspree.io/f/xpwzqkzn" class="form">
+              <div class="field">
+                <label for="name"><span lang="en">Name</span><span lang="fr">Nom</span></label>
+                <input type="text" name="name" id="name" autocomplete="name" required="">
               </div>
-              <div class="project-info">
-                <div class="project-header">
-                  <img src="/assets/images/imprint.webp" alt="" class="project-icon" loading="lazy" decoding="async" width="512" height="512" jampack-sized="true">
-                  <h3>Imprint</h3>
-                </div>
-                <p class="project-description">
-                  <span class="i18n" data-lang="en">A macOS app to add captions to your TIFF photos from a spreadsheet (Excel or CSV).</span>
-                  <span class="i18n" data-lang="fr">Une app macOS pour ajouter des légendes à vos photos TIFF depuis un tableur (Excel ou CSV).</span>
-                </p>
-                <span class="project-link">
-                  <span class="i18n" data-lang="en">Visit</span>
-                  <span class="i18n" data-lang="fr">Visiter</span>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line>
-                  </svg>
-                </span>
+              <div class="field">
+                <label for="email"><span lang="en">Email</span><span lang="fr">Email</span></label>
+                <input type="email" name="email" id="email" autocomplete="email" required="">
               </div>
-            </a><a href="https://jerefrer.github.io/captioneer/" target="_blank" rel="noopener" class="project-card">
-              <div class="project-screenshot">
-                <img src="/assets/images/screenshots/captioneer.webp" alt="Captioneer screenshot" loading="lazy" decoding="async" width="2024" height="1368" jampack-sized="true" srcset="/assets/images/screenshots/captioneer.webp 2024w, /assets/images/screenshots/captioneer@1124w.webp 1124w, /assets/images/screenshots/captioneer@824w.webp 824w" sizes="100vw">
+              <div class="field">
+                <label for="message"><span lang="en">Message</span><span lang="fr">Message</span></label>
+                <textarea name="message" id="message" rows="5" required=""></textarea>
               </div>
-              <div class="project-info">
-                <div class="project-header">
-                  <img src="/assets/images/captioneer.webp" alt="" class="project-icon" loading="lazy" decoding="async" width="1024" height="1024" jampack-sized="true">
-                  <h3>Captioneer</h3>
-                </div>
-                <p class="project-description">
-                  <span class="i18n" data-lang="en">A macOS app to extract the captions out of your photos into an Excel spreadsheet.</span>
-                  <span class="i18n" data-lang="fr">Une app macOS pour extraire les légendes de vos photos vers un tableur Excel.</span>
-                </p>
-                <span class="project-link">
-                  <span class="i18n" data-lang="en">Visit</span>
-                  <span class="i18n" data-lang="fr">Visiter</span>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line>
-                  </svg>
-                </span>
-              </div>
-            </a></div>
-      </div>
-    </section>
-    <!-- Websites Section -->
-    <section class="projects" id="websites">
-      <div class="container">
-        <header class="section-header">
-          <h2>
-            <span class="i18n" data-lang="en">Collaborations</span>
-            <span class="i18n" data-lang="fr">Collaborations</span>
-          </h2>
-          <p>
-            <span class="i18n" data-lang="en">Other projects I've worked on or working on at the moment.</span>
-            <span class="i18n" data-lang="fr">Autres projets auxquels j'ai contribué ou sur lesquels je travaille actuellement.</span>
-          </p>
-        </header>
-        <div class="projects-grid"><a href="https://www.padmakara.com/" target="_blank" rel="noopener" class="project-card">
-              <div class="project-screenshot">
-                <img src="/assets/images/screenshots/padmakara.webp" alt="Padmakara screenshot" loading="lazy" decoding="async" width="2408" height="1878" jampack-sized="true" srcset="/assets/images/screenshots/padmakara.webp 2408w, /assets/images/screenshots/padmakara@2108w.webp 2108w, /assets/images/screenshots/padmakara@1808w.webp 1808w, /assets/images/screenshots/padmakara@1508w.webp 1508w, /assets/images/screenshots/padmakara@1208w.webp 1208w, /assets/images/screenshots/padmakara@908w.webp 908w" sizes="100vw">
-              </div>
-              <div class="project-info">
-                <div class="project-header">
-                  <img src="/assets/images/padmakara.webp" alt="" class="project-icon" loading="lazy" decoding="async" width="417" height="413" jampack-sized="true">
-                  <h3>Padmakara</h3>
-                </div>
-                <p class="project-description">
-                  <span class="i18n" data-lang="en">Translation committee for Tibetan Buddhist texts</span>
-                  <span class="i18n" data-lang="fr">Comité de traduction de textes bouddhistes tibétains</span>
-                </p>
-                <p class="project-contribution">
-                  <span class="i18n" data-lang="en">Website development, laying out prayer booklets and pechas, currently working on the website redesign, internal tools and a Padmakara mobile app.</span>
-                  <span class="i18n" data-lang="fr">Développement du site web, mise en page de livrets de prières et de péchas, travail en cours sur la refonte du site web, des outils internes et une application mobile Padmakara.</span>
-                </p>
-                <span class="project-link">
-                  <span class="i18n" data-lang="en">Visit</span>
-                  <span class="i18n" data-lang="fr">Visiter</span>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line>
-                  </svg>
-                </span>
-              </div>
-            </a><a href="https://www.khyentsevision.org/" target="_blank" rel="noopener" class="project-card">
-              <div class="project-screenshot">
-                <img src="/assets/images/screenshots/khyentse-vision.webp" alt="Khyentse Vision Project (KVP) screenshot" loading="lazy" decoding="async" width="1930" height="1756" jampack-sized="true" srcset="/assets/images/screenshots/khyentse-vision.webp 1930w, /assets/images/screenshots/khyentse-vision@1630w.webp 1630w, /assets/images/screenshots/khyentse-vision@1330w.webp 1330w, /assets/images/screenshots/khyentse-vision@1030w.webp 1030w" sizes="100vw">
-              </div>
-              <div class="project-info">
-                <div class="project-header">
-                  <img src="/assets/images/khyentse-vision.webp" alt="" class="project-icon" loading="lazy" decoding="async" width="548" height="548" jampack-sized="true">
-                  <h3>Khyentse Vision Project (KVP)</h3>
-                </div>
-                <p class="project-description">
-                  <span class="i18n" data-lang="en">Translating the Works of Jamyang Khyentse Wangpo</span>
-                  <span class="i18n" data-lang="fr">Traduction des œuvres de Jamyang Khyentse Wangpo</span>
-                </p>
-                <p class="project-contribution">
-                  <span class="i18n" data-lang="en">Helping refine the phonetics generation tool used to produce the texts.</span>
-                  <span class="i18n" data-lang="fr">Aide à l'amélioration du générateur de phonétique utilisé pour produire les textes.</span>
-                </p>
-                <span class="project-link">
-                  <span class="i18n" data-lang="en">Visit</span>
-                  <span class="i18n" data-lang="fr">Visiter</span>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line>
-                  </svg>
-                </span>
-              </div>
-            </a><a href="https://www.bdrc.io/" target="_blank" rel="noopener" class="project-card">
-              <div class="project-screenshot">
-                <img src="/assets/images/screenshots/bdrc.webp" alt="Buddhist Digital Resource Center (BDRC) screenshot" loading="lazy" decoding="async" width="2270" height="1746" jampack-sized="true" srcset="/assets/images/screenshots/bdrc.webp 2270w, /assets/images/screenshots/bdrc@1970w.webp 1970w, /assets/images/screenshots/bdrc@1670w.webp 1670w, /assets/images/screenshots/bdrc@1370w.webp 1370w, /assets/images/screenshots/bdrc@1070w.webp 1070w" sizes="100vw">
-              </div>
-              <div class="project-info">
-                <div class="project-header">
-                  <img src="/assets/images/bdrc.webp" alt="" class="project-icon" loading="lazy" decoding="async" width="512" height="512" jampack-sized="true">
-                  <h3>Buddhist Digital Resource Center (BDRC)</h3>
-                </div>
-                <p class="project-description">
-                  <span class="i18n" data-lang="en">Preserving Buddhist Literature for the World</span>
-                  <span class="i18n" data-lang="fr">Preservation de la littérature bouddhiste pour le monde</span>
-                </p>
-                <p class="project-contribution">
-                  <span class="i18n" data-lang="en">Helping with the Optical Text Recognition (OCR) application.</span>
-                  <span class="i18n" data-lang="fr">Amélioration de l'application de reconnaissance de texte (OCR).</span>
-                </p>
-                <span class="project-link">
-                  <span class="i18n" data-lang="en">Visit</span>
-                  <span class="i18n" data-lang="fr">Visiter</span>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line>
-                  </svg>
-                </span>
-              </div>
-            </a><a href="https://www.lamaison24.net/" target="_blank" rel="noopener" class="project-card">
-              <div class="project-screenshot">
-                <img src="/assets/images/screenshots/la-maison-24.webp" alt="La Maison 24 screenshot" loading="lazy" decoding="async" width="2608" height="1982" jampack-sized="true" srcset="/assets/images/screenshots/la-maison-24.webp 2608w, /assets/images/screenshots/la-maison-24@2008w.webp 2008w, /assets/images/screenshots/la-maison-24@1708w.webp 1708w, /assets/images/screenshots/la-maison-24@1408w.webp 1408w, /assets/images/screenshots/la-maison-24@1108w.webp 1108w, /assets/images/screenshots/la-maison-24@808w.webp 808w" sizes="100vw">
-              </div>
-              <div class="project-info">
-                <div class="project-header">
-                  <img src="/assets/images/maison-24.webp" alt="" class="project-icon" loading="lazy" decoding="async" width="256" height="256" jampack-sized="true">
-                  <h3>La Maison 24</h3>
-                </div>
-                <p class="project-description">
-                  <span class="i18n" data-lang="en">Supporting and assisting people in precarious situations in Dordogne since 2013.</span>
-                  <span class="i18n" data-lang="fr">Soutenir et accompagner les personnes en situation de précarité en Dordogne depuis 2013</span>
-                </p>
-                <p class="project-contribution">
-                  <span class="i18n" data-lang="en">Website redesign, content updates, also helping with producing documents like flyers, annual reports and the like.</span>
-                  <span class="i18n" data-lang="fr">Refonte du site web, mise à jour du contenu, aide à la production de documents comme des flyers, rapports annuels et autres.</span>
-                </p>
-                <span class="project-link">
-                  <span class="i18n" data-lang="en">Visit</span>
-                  <span class="i18n" data-lang="fr">Visiter</span>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line>
-                  </svg>
-                </span>
-              </div>
-            </a><a href="https://www.matthieuricard.org/" target="_blank" rel="noopener" class="project-card">
-              <div class="project-screenshot">
-                <img src="/assets/images/screenshots/matthieu-ricard.webp" alt="MatthieuRicard.org screenshot" loading="lazy" decoding="async" width="2228" height="1928" jampack-sized="true" srcset="/assets/images/screenshots/matthieu-ricard.webp 2228w, /assets/images/screenshots/matthieu-ricard@1928w.webp 1928w, /assets/images/screenshots/matthieu-ricard@1628w.webp 1628w, /assets/images/screenshots/matthieu-ricard@1328w.webp 1328w, /assets/images/screenshots/matthieu-ricard@1028w.webp 1028w" sizes="100vw">
-              </div>
-              <div class="project-info">
-                <div class="project-header">
-                  <img src="/assets/images/matthieu-ricard.webp" alt="" class="project-icon" loading="lazy" decoding="async" width="428" height="428" jampack-sized="true">
-                  <h3>MatthieuRicard.org</h3>
-                </div>
-                <p class="project-description">
-                  <span class="i18n" data-lang="en">The official website of Matthieu Ricard.</span>
-                  <span class="i18n" data-lang="fr">Le site officiel de Matthieu Ricard.</span>
-                </p>
-                <p class="project-contribution">
-                  <span class="i18n" data-lang="en">Updating content.</span>
-                  <span class="i18n" data-lang="fr">Mise à jour du contenu.</span>
-                </p>
-                <span class="project-link">
-                  <span class="i18n" data-lang="en">Visit</span>
-                  <span class="i18n" data-lang="fr">Visiter</span>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line>
-                  </svg>
-                </span>
-              </div>
-            </a><a href="https://www.100pour1perigord.org/" target="_blank" rel="noopener" class="project-card">
-              <div class="project-screenshot">
-                <img src="/assets/images/screenshots/100-pour-1.webp" alt="100 pour 1 Périgord screenshot" loading="lazy" decoding="async" width="2664" height="1852" jampack-sized="true" srcset="/assets/images/screenshots/100-pour-1.webp 2664w, /assets/images/screenshots/100-pour-1@2364w.webp 2364w, /assets/images/screenshots/100-pour-1@2064w.webp 2064w, /assets/images/screenshots/100-pour-1@1764w.webp 1764w, /assets/images/screenshots/100-pour-1@1464w.webp 1464w, /assets/images/screenshots/100-pour-1@1164w.webp 1164w, /assets/images/screenshots/100-pour-1@864w.webp 864w" sizes="100vw">
-              </div>
-              <div class="project-info">
-                <div class="project-header">
-                  <img src="/assets/images/100pour1.webp" alt="" class="project-icon" loading="lazy" decoding="async" width="155" height="150" jampack-sized="true">
-                  <h3>100 pour 1 Périgord</h3>
-                </div>
-                <p class="project-description">
-                  <span class="i18n" data-lang="en">Providing housing to migrants, regardless of their legal status.</span>
-                  <span class="i18n" data-lang="fr">Fournir un logement aux migrants, indépendamment de leur statut légal.</span>
-                </p>
-                <p class="project-contribution">
-                  <span class="i18n" data-lang="en">Built the whole website on Wix.</span>
-                  <span class="i18n" data-lang="fr">Création complète sur Wix.</span>
-                </p>
-                <span class="project-link">
-                  <span class="i18n" data-lang="en">Visit</span>
-                  <span class="i18n" data-lang="fr">Visiter</span>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line>
-                  </svg>
-                </span>
-              </div>
-            </a></div>
-      </div>
-    </section>
-    <!-- Contact Section -->
-    <section class="contact" id="contact">
-      <div class="container">
-        <header class="section-header">
-          <h2>
-            <span class="i18n" data-lang="en">Get in touch</span>
-            <span class="i18n" data-lang="fr">Me contacter</span>
-          </h2>
-        </header>
-        <form method="POST" action="https://formspree.io/f/xpwzqkzn" class="contact-form">
-          <div class="form-row">
-            <div class="form-group">
-              <label for="name">
-                <span class="i18n" data-lang="en">Name</span>
-                <span class="i18n" data-lang="fr">Nom</span>
-              </label>
-              <input type="text" name="name" id="name" required="">
-            </div>
-            <div class="form-group">
-              <label for="email">
-                <span class="i18n" data-lang="en">Email</span>
-                <span class="i18n" data-lang="fr">Email</span>
-              </label>
-              <input type="email" name="email" id="email" required="">
-            </div>
-          </div>
-          <div class="form-group">
-            <label for="message">
-              <span class="i18n" data-lang="en">Message</span>
-              <span class="i18n" data-lang="fr">Message</span>
-            </label>
-            <textarea name="message" id="message" rows="5" required=""></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary">
-            <span class="i18n" data-lang="en">Send</span>
-            <span class="i18n" data-lang="fr">Envoyer</span>
-          </button>
-        </form>
-      </div>
-    </section>
-    <!-- Footer -->
-    <footer class="footer">
-      <div class="container">
-        <p>
-          <span class="i18n" data-lang="en">This website is statically built with</span>
-          <span class="i18n" data-lang="fr">Ce site est généré statiquement avec</span>
-          <a href="https://www.11ty.dev/" target="_blank" rel="noopener">Eleventy</a>
-          <span class="i18n" data-lang="en">for a low carbon footprint</span>
-          <span class="i18n" data-lang="fr">pour une faible empreinte carbone</span>
-        </p>
+              <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" class="trap" aria-hidden="true">
+              <button type="submit" class="btn btn-primary"><span lang="en">Send</span><span lang="fr">Envoyer</span></button>
+            </form>
+          </details>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <span><span lang="en">Made by Frère Jérémy · statically built with</span><span lang="fr">Fait par Frère Jérémy · généré statiquement avec</span> <a href="https://www.11ty.dev/" target="_blank" rel="noopener">Eleventy</a> <span lang="en">for a low carbon footprint</span><span lang="fr">pour une faible empreinte carbone</span></span>
+        <span class="footer-links">
+          <a href="https://github.com/jerefrer" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://github.com/sponsors/jerefrer" target="_blank" rel="noopener">GitHub Sponsors</a>
+          <a href="https://tibetantoolbox.org/" target="_blank" rel="noopener"><span lang="en">Tibetan Toolbox</span><span lang="fr">Tibetan Toolbox</span></a>
+        </span>
       </div>
     </footer>
-    <script>const supportedLanguages=["en","fr"],userLanguages=navigator.languages||[navigator.language];function getPreferredLanguage(){const e=localStorage.getItem("preferredLanguage");if(e&&supportedLanguages.includes(e))return e;for(const t of userLanguages){if(supportedLanguages.includes(t))return t;const n=t.split("-")[0];if(supportedLanguages.includes(n))return n}return"en"}function setLanguage(e){document.documentElement.lang=e,localStorage.setItem("preferredLanguage",e),document.querySelectorAll(".i18n").forEach(t=>{t.dataset.lang===e?t.style.display=t.tagName==="SPAN"?"inline":"block":t.style.display="none"})}const currentLang=getPreferredLanguage();setLanguage(currentLang),document.getElementById("langToggle").addEventListener("click",()=>{const e=document.documentElement.lang==="en"?"fr":"en";setLanguage(e)}),document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(t){t.preventDefault();const n=document.querySelector(this.getAttribute("href"));n&&n.scrollIntoView({behavior:"smooth",block:"start"})})});
-</script>
+
+    <script src="/assets/js/site.js" defer=""></script>
   
+
 </body></html>
