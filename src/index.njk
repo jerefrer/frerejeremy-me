@@ -167,14 +167,15 @@
           </div>
           <ul class="rows rows-work">
             {%- for site in websites %}
-            <li class="work-item">
-              <img class="logo" src="{{ site.icon }}" width="48" height="48" alt="" loading="lazy"/>
-              <div class="row-text">
-                <strong>{{ site.name }}</strong>
-                <span>{{ t(site.description) }}</span>
-                <span class="muted">{{ t(site.contribution) }}</span>
-                <a class="text-link small" href="{{ site.url }}" target="_blank" rel="noopener">{{ t(texts.work.visit) }}<span class="sr"> {{ site.name }}</span> {{ ext() }}</a>
-              </div>
+            <li>
+              <a class="row work-item" href="{{ site.url }}" target="_blank" rel="noopener">
+                <img class="logo" src="{{ site.icon }}" width="48" height="48" alt="" loading="lazy"/>
+                <span class="row-text">
+                  <strong>{{ site.name }} {{ ext() }}</strong>
+                  <span>{{ t(site.description) }}</span>
+                  <span class="muted">{{ t(site.contribution) }}</span>
+                </span>
+              </a>
             </li>
             {%- endfor %}
           </ul>
