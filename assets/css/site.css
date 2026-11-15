@@ -165,6 +165,7 @@ h2.h2-xl { font-size: clamp(32px, 5vw, 44px); }
   background: var(--white); border-radius: 18px; padding: 22px; text-decoration: none; color: var(--ink);
   border: 1.5px solid transparent; transition: border-color .15s, transform .15s;
 }
+.card-icon { width: 44px; height: 44px; border-radius: 10px; object-fit: contain; margin-bottom: 4px; }
 .card strong { font-size: 17px; }
 .card span { font-size: 15px; color: var(--muted); }
 .card:hover { border-color: var(--saffron); color: var(--ink); }

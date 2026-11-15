@@ -75,8 +75,8 @@
       "fr": "Tout ce que vous trouvez ici est gratuit. Les contributions régulières, même modestes, sont ce qui me permet de continuer à le construire."
     },
     "give": {
-      "en": "Give monthly or once — card or PayPal",
-      "fr": "Donner chaque mois ou une fois — carte ou PayPal"
+      "en": "Give monthly or once — card, Apple Pay, PayPal",
+      "fr": "Donner chaque mois ou une fois — carte, Apple Pay, PayPal"
     },
     "giveUrl": "https://donorbox.org/support-jeremy?default_interval=m",
     "github": {

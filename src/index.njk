@@ -129,6 +129,7 @@
             {%- for tool in tools %}
             <li>
               <a class="card" href="{{ tool.url }}" target="_blank" rel="noopener">
+                <img class="card-icon" src="/assets/images/{{ tool.id }}-icon.webp" alt="" width="44" height="44" loading="lazy">
                 <strong>{{ tool.name }}</strong>
                 <span>{{ t(tool.description) }}</span>
               </a>
