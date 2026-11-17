@@ -20,20 +20,5 @@
         document.documentElement.lang = lang;
       })();
     </script>
-    <!-- Matomo -->
-    <script>
-      var _paq = (window._paq = window._paq || []);
-      _paq.push(["trackPageView"]);
-      _paq.push(["enableLinkTracking"]);
-      (function () {
-        var u = "//analytics.frerejeremy.me/";
-        _paq.push(["setTrackerUrl", u + "matomo.php"]);
-        _paq.push(["setSiteId", "1"]);
-        var d = document,
-          g = d.createElement("script"),
-          s = d.getElementsByTagName("script")[0];
-        g.async = true;
-        g.src = u + "matomo.js";
-        s.parentNode.insertBefore(g, s);
-      })();
-    </script>
+    <!-- Umami: cookieless page views, sent only from the live domain. -->
+    <script defer src="https://analytics.frerejeremy.me/script.js" data-website-id="b065c280-34eb-4283-903d-53394184b51d" data-domains="frerejeremy.me"></script>
